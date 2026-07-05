@@ -720,35 +720,26 @@ h3 {
 }
 
 .visual-one {
-  background:
-        linear-gradient(27deg,#151515 5px,transparent 5px) 0 5px,
-        linear-gradient(207deg,#151515 5px,transparent 5px) 10px 0,
-        linear-gradient(27deg,#222 5px,transparent 5px) 0 10px,
-        linear-gradient(207deg,#222 5px,transparent 5px) 10px 5px,
-        #111;
-    background-size:20px 20px;
+    background: url("images/restuarantport.png") center top / cover no-repeat;
 }
-
 
 .visual-two {
-   background:
-        linear-gradient(27deg,#151515 5px,transparent 5px) 0 5px,
-        linear-gradient(207deg,#151515 5px,transparent 5px) 10px 0,
-        linear-gradient(27deg,#222 5px,transparent 5px) 0 10px,
-        linear-gradient(207deg,#222 5px,transparent 5px) 10px 5px,
-        #111;
-    background-size:20px 20px;
+    background: url("images/jwelleryport.png") center top / cover no-repeat;
 }
 
-
 .visual-three {
-    background:
-        linear-gradient(27deg,#151515 5px,transparent 5px) 0 5px,
-        linear-gradient(207deg,#151515 5px,transparent 5px) 10px 0,
-        linear-gradient(27deg,#222 5px,transparent 5px) 0 10px,
-        linear-gradient(207deg,#222 5px,transparent 5px) 10px 5px,
-        #111;
-    background-size:20px 20px;
+    background: url("images/dentistport.png") center top / cover no-repeat;
+}
+
+/* Agar in divs ke andar <img> bhi hai */
+.visual-one img,
+.visual-two img,
+.visual-three img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #111;
+    display: block;
 }
 
 

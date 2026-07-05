@@ -96,7 +96,7 @@ const portfolioProjects = [
     category: "clinic",
     description: "For best densitsts in the city.",
     tech: ["HTML", "CSS", "JavaScript"],
-    image: "images/dentist.jpg"
+    image: "images/dentistport.png/"
   },
   {
    name: "General Store",
