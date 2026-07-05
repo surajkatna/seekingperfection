@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+}
+
+.top {
+  margin: 0%;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.hot {
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgb(244, 240, 178);
+  font-size: 24px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.hot {
+  color: rgb(101, 67, 33);
+}
+
+.num{
+    background-color: rgb(252, 156, 53);
+
+    width: 200px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+    border: 1px transparent;
+
+    color: white;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+.num:hover {
+  opacity: 1;
+  color: black;
+  background-color: orange;
+}
+
+.hot:hover {
+  color: orange;
+  transform: translateY(-5px);
+  text-decoration: underline orange 2px;
+}
+
+.links:hover {
+  background-color: rgb(232, 223, 163);
+}
+
+.header {
+  position: relative;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+  background-color: rgb(246, 225, 185);
+}
+
+.header h1 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border: solid black 0.1px;
+  border-width: 5px 2px;
+  border-color: gold;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 10px;
+  
+}
+
+#mill {
+  position: absolute;
+  left: 20px;
+  width: 120px;
+  height: 75px;
+}
+
+
+.hot,
+.num{
+  transition: all 0.3s ease;
+}
+
+.header h1:hover {
+  color: #c96d18;
+  transform: scale(1.03);
+}
+
+
+#ring{
+    display: inline-block;
+}
+
+.num:hover #ring{
+    animation: shake 0.4s infinite;
+}
+
+@keyframes shake{
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(15deg); }
+    50%  { transform: rotate(-15deg); }
+    75%  { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#mill {
+  position: absolute;
+  left: 20px;
+  width: 220px;
+  height: 150px;
+}

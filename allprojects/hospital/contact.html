@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | MediCare Premium Hospital</title>
+    <!-- Premium Google Fonts Architecture -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- 1. INSTITUTIONAL TOP UTILITY BAR -->
+    <div class="top-utility-bar">
+        <div class="utility-container">
+            <div class="utility-left">
+                <span><i class="fa-solid fa-circle-check"></i> <strong>Accredited:</strong> Global Premium Standard</span>
+                <span class="separator">|</span>
+                <span><i class="fa-solid fa-phone"></i> Emergency Liaison: +91 98765 43210</span>
+            </div>
+            <div class="utility-right">
+                <a href="#location"><i class="fa-solid fa-map-pin"></i> Campus Map</a>
+                <a href="doctors.html">Concierge Desk</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. MAIN HEADER & LOGO CONSOLE -->
+    <header class="main-header">
+        <div class="navbar">
+            <div class="logo">
+                <span class="logo-text">Medi<span class="accent">Care</span></span>
+                <span class="logo-sub">Medical Institution</span>
+            </div>
+
+            <!-- Mobile Controller -->
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="index.html" class="points">Home</a>
+                <a href="about.html" class="points">About</a>
+                <a href="services.html" class="points">Services</a>
+                <a href="doctors.html" class="points">Doctors</a>
+                <a href="contact.html" class="points active">Contact</a>
+            </nav>
+
+            <button class="cta-btn" onclick="window.location.href='services.html#book'">
+                Appointment Center
+            </button>
+        </div>
+    </header>
+
+    <!-- 3. EDITORIAL HERO AREA -->
+    <section class="contact-hero">
+        <div class="hero-content">
+            <span class="premium-badge">CONTACT GLOBAL INTAKE</span>
+            <h1>
+                We Are Here To <br>
+                <span class="blue">Provide Council & Help</span>
+            </h1>
+            <p>
+                Have a clinical question or require specialized medical assistance? Our dedicated institution intake concierge team is ready to prioritize your needs.
+            </p>
+        </div>
+    </section>
+
+    <!-- 4. THREE-COLUMN CONTACT MATRIX SECTION -->
+    <section class="contact-section">
+
+        <!-- Column A: Institutional Directory -->
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+
+            <div class="info-box">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h3>Call Us</h3>
+                    <p>+91 98765 43210</p>
+                    <p>+91 98765 43211</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h3>Email Us</h3>
+                    <p>info@medicare.com</p>
+                    <p>support@medicare.com</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h3>Visit Us</h3>
+                    <p>123 Medical Street</p>
+                    <p>Healthcare City</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-regular fa-clock"></i>
+                <div>
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Sat : 8 AM - 8 PM</p>
+                    <p>Sunday : 9 AM - 2 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Column B: Premium Encrypted Messaging Form -->
+        <div class="contact-form">
+            <h2>Send Us A Message</h2>
+            <form id="institutionalContactForm">
+                <div class="input-row">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+
+                <input type="text" placeholder="Your Phone">
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your Message" required></textarea>
+
+                <button type="submit">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send Message
+                </button>
+            </form>
+        </div>
+
+        <!-- Column C: Geolocation Console Map -->
+        <div class="location-box" id="location">
+            <iframe src="https://www.google.com/maps?q=Delhi&output=embed" allowfullscreen="" loading="lazy"></iframe>
+            <div class="location-content">
+                <h3>Our Location</h3>
+                <p>
+                    123 Healthcare Street,<br>
+                    Medical City
+                </p>
+                <a href="https://maps.google.com" target="_blank">
+                    Get Directions
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 5. INSTITUTIONAL ACCREDITED FEATURES -->
+    <section class="features">
+        <div class="feature">
+            <i class="fa-solid fa-shield-heart"></i>
+            <h3>Trusted Care</h3>
+            <p>Quality you can count on</p>
+        </div>
+
+        <div class="feature">
+            <i class="fa-solid fa-user-doctor"></i>
+            <h3>Expert Doctors</h3>
+            <p>Highly experienced team</p>
+        </div>
+
+        <div class="feature">
+            <i class="fa-solid fa-clock"></i>
+            <h3>24/7 Support</h3>
+            <p>Always available for you</p>
+        </div>
+
+        <div class="feature">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Patient First</h3>
+            <p>Your health is our value</p>
+        </div>
+    </section>
+
+    <!-- 6. LUXURY FOOTER ARCHITECTURE -->
+    <footer class="luxury-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h2>MediCare Hospital</h2>
+                <p>
+                    Caring for life, every single day. Your holistic physiological health remains our utmost luxury priority.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="doctors.html">Doctors</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Services</h3>
+                <a href="services.html">Emergency Line</a>
+                <a href="services.html">Cardiology</a>
+                <a href="services.html">Neurology</a>
+                <a href="services.html">Dental Unit</a>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p style="font-size:0.85rem; margin-bottom:15px; color:rgba(255,255,255,0.5)">Subscribe for medical developments.</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your Email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; 2026 MediCare Hospital. All International Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="contact.js"></script>
+</body>
+
+</html>

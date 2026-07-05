@@ -1,0 +1,995 @@
+/*==============================
+GOOGLE FONTS & VARIABLES
+==============================*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --gold: #d4af37;
+    --gold2: #f6d365;
+    --white: #ffffff;
+    --gray: #b9b9b9;
+    --dark: #090909;
+    --black: #000;
+    --card: #131313;
+    --shadow: 0 15px 40px rgba(0, 0, 0, .45);
+    --transition: .4s ease;
+}
+
+/*==============================
+RESET & UTILITIES
+==============================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: #080808;
+    color: #fff;
+    overflow-x: hidden;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: min(1200px, 90%);
+    margin: auto;
+}
+
+.sectionHeading {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.sectionHeading p {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.sectionHeading h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+}
+
+/*==============================
+SCROLLBAR & SELECTION
+==============================*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--gold), #9d7310);
+    border-radius: 30px;
+}
+
+::selection {
+    background: var(--gold);
+    color: #000;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 4px;
+}
+
+/*==============================
+HEADER & NAVBAR
+==============================*/
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 2rem 0;
+    transition: .4s;
+    backdrop-filter: blur(16px);
+    background: rgba(0, 0, 0, .4);
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo i {
+    font-size: 3.5rem;
+    color: var(--gold);
+}
+
+.logo h2 {
+    font-size: 2.8rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    color: white;
+}
+
+.logo span {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
+
+.navLinks {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.navLinks a {
+    color: white;
+    font-size: 1.6rem;
+    position: relative;
+    transition: .3s;
+}
+
+.navLinks a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 2px;
+    background: var(--gold);
+    transition: .4s;
+}
+
+.navLinks a:hover,
+.navLinks a.active {
+    color: var(--gold);
+}
+
+.navLinks a:hover::after {
+    width: 100%;
+}
+
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px;
+    background: white;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+#hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+#hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+/*==============================
+BUTTONS & INTERACTIVE ELEMENTS
+==============================*/
+button,
+.primaryBtn,
+.bookBtn,
+.secondaryBtn,
+.aboutText a,
+.contactBox a {
+    position: relative;
+    overflow: hidden;
+}
+
+.bookBtn {
+    padding: 15px 35px;
+    border-radius: 60px;
+    background: linear-gradient(135deg, var(--gold), #9e7612);
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: .4s;
+    box-shadow: 0 10px 30px rgba(212, 175, 55, .3);
+}
+
+.bookBtn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(212, 175, 55, .45);
+}
+
+.primaryBtn,
+.aboutText a {
+    padding: 18px 42px;
+    background: linear-gradient(135deg, var(--gold), #a67c17);
+    border-radius: 50px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.aboutText a {
+    display: inline-block;
+    padding: 16px 36px;
+}
+
+.primaryBtn:hover,
+.aboutText a:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(212, 175, 55, .45);
+}
+
+.secondaryBtn {
+    padding: 18px 42px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5rem;
+    transition: .4s;
+    backdrop-filter: blur(10px);
+}
+
+.secondaryBtn:hover {
+    background: white;
+    color: black;
+}
+
+.topBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 55px;
+    height: 55px;
+    background: var(--gold);
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    z-index: 999;
+}
+
+.topBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.topBtn:hover {
+    transform: translateY(-6px);
+}
+
+/*==============================
+HERO SECTION
+==============================*/
+#home {
+    padding-top: 180px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroOverlay {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, var(--gold), transparent);
+    opacity: .08;
+    right: -200px;
+    top: -200px;
+    filter: blur(100px);
+}
+
+.heroContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 7rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid rgba(212, 175, 55, .4);
+    border-radius: 40px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: var(--gold);
+    background: rgba(212, 175, 55, .08);
+}
+
+.heroText h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 7rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.heroText span {
+    color: var(--gold);
+}
+
+.description {
+    font-size: 1.8rem;
+    color: #bfbfbf;
+    line-height: 1.8;
+    max-width: 580px;
+    margin-bottom: 4rem;
+}
+
+.heroButtons {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.features {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.featureBox {
+    width: 130px;
+    height: 130px;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .08);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.featureBox:hover {
+    transform: translateY(-10px);
+    border-color: var(--gold);
+    box-shadow: 0 20px 45px rgba(212, 175, 55, .2);
+}
+
+.featureBox i {
+    font-size: 3rem;
+    color: var(--gold);
+    margin-bottom: 1.5rem;
+}
+
+.featureBox h3 {
+    font-size: 1.6rem;
+}
+
+.heroImage,
+.aboutImage,
+.doctorCard {
+    overflow: hidden;
+}
+
+.heroImage img {
+    border-radius: 40px;
+    box-shadow: var(--shadow);
+}
+
+/* .heroImage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .45));
+    border-radius: 40px;
+} */
+
+/*==============================
+SERVICES
+==============================*/
+#services {
+    padding: 100px 0;
+    background: #0d0d0d;
+}
+
+.serviceGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.serviceCard {
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 25px;
+    padding: 4rem 3rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.serviceCard:hover {
+    transform: translateY(-12px);
+    border-color: var(--gold);
+    box-shadow: 0 25px 45px rgba(212, 175, 55, .18);
+}
+
+.serviceCard i {
+    font-size: 4rem;
+    color: var(--gold);
+    margin-bottom: 2rem;
+    transition: .4s;
+}
+
+.serviceCard:hover i {
+    transform: rotateY(180deg) scale(1.1);
+}
+
+.serviceCard h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.serviceCard p {
+    color: #cfcfcf;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/*==============================
+ABOUT
+==============================*/
+#about {
+    padding: 100px 0;
+}
+
+.aboutWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+.aboutImage img {
+    border-radius: 30px;
+    transition: .5s;
+    box-shadow: var(--shadow);
+}
+
+.aboutImage:hover img {
+    transform: scale(1.03);
+}
+
+.aboutText p:first-child {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.aboutText h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.aboutText p {
+    font-size: 1.7rem;
+    color: #cfcfcf;
+    line-height: 1.9;
+}
+
+.aboutText ul {
+    margin: 3rem 0;
+}
+
+.aboutText li {
+    font-size: 1.7rem;
+    margin: 1.4rem 0;
+}
+
+/*==============================
+STATS
+==============================*/
+#stats {
+    padding: 80px 0;
+    background: #111;
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.stat {
+    text-align: center;
+    padding: 3rem;
+}
+
+.stat h2 {
+    color: var(--gold);
+    font-size: 5rem;
+}
+
+.stat p {
+    font-size: 1.7rem;
+    color: #cfcfcf;
+}
+
+/*==============================
+TEAM
+==============================*/
+#team {
+    padding: 100px 0;
+}
+
+.doctorGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.doctorCard {
+    border-radius: 25px;
+    background: #121212;
+    transition: .4s;
+    text-align: center;
+}
+
+.doctorCard:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .4);
+}
+
+.doctorCard img {
+    height: 420px;
+    object-fit: cover;
+    transition: .6s;
+}
+
+.doctorCard:hover img {
+    transform: scale(1.08);
+}
+
+.doctorCard h3 {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+}
+
+.doctorCard span {
+    display: block;
+    color: var(--gold);
+    margin: 1rem 0 2.5rem;
+    font-size: 1.5rem;
+}
+
+/*==============================
+TESTIMONIALS
+==============================*/
+#testimonials {
+    padding: 100px 0;
+    background: #0d0d0d;
+}
+
+.testimonialGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.testimonial {
+    padding: 4rem 3rem;
+    border-radius: 25px;
+    background: #151515;
+    border: 1px solid rgba(255, 255, 255, .08);
+    transition: .4s;
+}
+
+.testimonial:hover {
+    border-color: var(--gold);
+    transform: translateY(-10px);
+}
+
+.testimonial p {
+    font-size: 1.7rem;
+    color: #ddd;
+    line-height: 1.9;
+}
+
+.testimonial h4 {
+    margin-top: 2rem;
+    color: var(--gold);
+    font-size: 2rem;
+}
+
+/*==============================
+CONTACT & FOOTER
+==============================*/
+#contact {
+    padding: 100px 0;
+}
+
+.contactBox {
+    text-align: center;
+    padding: 7rem;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #151515, #0a0a0a);
+    border: 1px solid rgba(212, 175, 55, .15);
+    animation: pulseGlow 5s infinite;
+}
+
+.contactBox h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+}
+
+.contactBox p {
+    font-size: 1.8rem;
+    color: #cfcfcf;
+    margin: 2rem 0 3rem;
+}
+
+.contactBox a {
+    display: inline-block;
+    padding: 18px 42px;
+    border-radius: 50px;
+    background: var(--gold);
+    color: #000;
+    transition: .4s;
+}
+
+.contactBox a:hover {
+    transform: scale(1.05);
+}
+
+#footer {
+    background: #050505;
+    padding: 70px 0 30px;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.footerGrid h2,
+.footerGrid h3 {
+    margin-bottom: 2rem;
+}
+
+.footerGrid p,
+.footerGrid li {
+    color: #bdbdbd;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    transition: .3s;
+}
+
+.footerGrid li:hover {
+    color: var(--gold);
+    transform: translateX(6px);
+    cursor: pointer;
+}
+
+/*==============================
+PREMIUM EFFECTS & ANIMATIONS
+==============================*/
+body::before {
+    content: "";
+    position: fixed;
+    inset: -20%;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(212, 175, 55, .08), transparent 35%),
+      radial-gradient(circle at 80% 30%, rgba(255, 255, 255, .03), transparent 30%),
+      radial-gradient(circle at 60% 80%, rgba(212, 175, 55, .05), transparent 35%);
+    filter: blur(60px);
+    animation: bgFloat 18s ease-in-out infinite alternate;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.serviceCard,
+.doctorCard,
+.testimonial,
+.featureBox {
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+.serviceCard,
+.doctorCard {
+    position: relative;
+}
+
+.serviceCard::before,
+.doctorCard::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, transparent, var(--gold), transparent);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: .4s;
+    pointer-events: none;
+}
+
+.serviceCard:hover::before,
+.doctorCard:hover::before {
+    opacity: 1;
+}
+
+.primaryBtn::before,
+.bookBtn::before,
+.aboutText a::before,
+.contactBox a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -130%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .45), transparent);
+    transform: skewX(-25deg);
+}
+
+.primaryBtn:hover::before,
+.bookBtn:hover::before,
+.aboutText a:hover::before,
+.contactBox a:hover::before {
+    left: 160%;
+    transition: .7s;
+}
+
+.featureBox i {
+    animation: iconFloat 3s ease-in-out infinite;
+}
+
+.ripple {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: ripple .6s linear;
+}
+
+.serviceCard:hover,
+.featureBox:hover,
+.testimonial:hover,
+.doctorCard:hover {
+    will-change: transform;
+}
+
+.heroText {
+    animation: fadeUp 1s ease;
+}
+
+.heroImage {
+    animation: fadeUp 1s ease, float 6s ease-in-out infinite;
+}
+
+/* Keyframes */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+@keyframes bgFloat {
+    from { transform: translate(-2%, -2%) scale(1); }
+    to { transform: translate(2%, 2%) scale(1.08); }
+}
+
+@keyframes iconFloat {
+    50% { transform: translateY(-6px); }
+}
+
+@keyframes fadeUp {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+    50% { box-shadow: 0 0 45px rgba(212, 175, 55, .18); }
+}
+
+@keyframes ripple {
+    from { width: 0; height: 0; opacity: 1; }
+    to { width: 350px; height: 350px; opacity: 0; }
+}
+
+/*==============================
+RESPONSIVE DESIGN (MEDIA QUERIES)
+==============================*/
+@media(min-width: 1400px) {
+    .container {
+        width: min(1320px, 88%);
+    }
+    .heroText h1 {
+        font-size: 8rem;
+    }
+}
+
+@media(max-width: 991px) {
+    #home {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+    .heroContent {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 4rem;
+    }
+    .heroText {
+        order: 1;
+    }
+    .heroImage {
+        order: 2;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .description {
+        margin: auto auto 4rem;
+    }
+    .heroButtons,
+    .features {
+        justify-content: center;
+    }
+    .heroText h1 {
+        font-size: 5.5rem;
+    }
+    .navLinks {
+        position: fixed;
+        top: 85px;
+        right: -100%;
+        width: 300px;
+        height: calc(100vh - 85px);
+        background: #111;
+        display: flex;
+        flex-direction: column;
+        padding: 5rem;
+        transition: .4s;
+        gap: 3rem;
+    }
+    .navLinks.active {
+        right: 0;
+    }
+    #hamburger {
+        display: block;
+    }
+    .bookBtn {
+        display: none;
+    }
+    .serviceGrid,
+    .statsGrid,
+    .doctorGrid,
+    .testimonialGrid,
+    .footerGrid,
+    .aboutWrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactBox {
+        padding: 5rem 3rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .serviceGrid,
+    .statsGrid,
+    .doctorGrid,
+    .testimonialGrid,
+    .footerGrid,
+    .aboutWrapper {
+        grid-template-columns: 1fr;
+    }
+    .sectionHeading h2,
+    .aboutText h2,
+    .contactBox h2 {
+        font-size: 3.8rem;
+    }
+    .doctorCard img {
+        height: 340px;
+    }
+}
+
+@media(max-width: 600px) {
+    #home {
+        padding-top: 120px;
+    }
+    .heroText h1 {
+        font-size: 4.3rem;
+    }
+    .heroButtons {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .primaryBtn,
+    .secondaryBtn {
+        width: 100%;
+        text-align: center;
+    }
+    .features {
+        gap: 1rem;
+    }
+    .featureBox {
+        width: 110px;
+        height: 110px;
+    }
+    .heroImage {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 480px) {
+    html {
+        font-size: 56.25%;
+    }
+    #header {
+        padding: 1.5rem 0;
+    }
+    .heroText h1 {
+        font-size: 3.6rem;
+    }
+    .contactBox {
+        padding: 3.5rem 2rem;
+    }
+    .sectionHeading h2 {
+        font-size: 3.2rem;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}

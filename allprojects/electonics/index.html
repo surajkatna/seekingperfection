@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroWorld | Haute Électronique</title>
+
+    <!-- SEO & Meta Information -->
+    <meta name="description"
+        content="Explore ElectroWorld's curated masterpieces across premium smartphones, computing platforms, high-fidelity acoustic items, and luxury engineering essentials.">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="canonical" href="https://electroworld.com">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ElectroWorld | Haute Électronique">
+    <meta property="og:description"
+        content="Explore curated masterpieces across premium smartphones, computing platforms, and high-fidelity acoustics.">
+    <meta property="og:image" content="images/banner.svg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ElectroWorld | Haute Électronique">
+    <meta name="twitter:description"
+        content="Explore curated masterpieces across premium smartphones, computing platforms, and high-fidelity acoustics.">
+
+    <!-- Premium Editorial Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Iconography -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress Bar Component -->
+    <div class="scroll-progress" id="scroll-progress-indicator" aria-hidden="true"></div>
+
+    <!--================ NAVBAR =================-->
+    <header>
+        <div class="top-bar">
+            <p><i class="fa-solid fa-location-dot"></i> Near Bus Stand, Delhi Road</p>
+            <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+        </div>
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <h2>ElectroWorld</h2>
+            </div>
+
+            <!-- Accessible Accessible Checkbox Toggle Framework for Mobile Hamburger Drawer -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation Menu">
+            <label for="nav-toggle" class="hamburger-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active">Home</a></li>
+                <li><a href="#phones" class="nav-link">Phones</a></li>
+                <li><a href="#laptops" class="nav-link">Laptops</a></li>
+                <li><a href="#headphones" class="nav-link">Headphones</a></li>
+                <li><a href="#cameras" class="nav-link">Cameras</a></li>
+                <li><a href="#accessories" class="nav-link">Accessories</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--================ HERO =================-->
+        <section class="hero fade-in-section">
+            <div class="hero-text">
+                <h1>The Art of Pure Engineering.</h1>
+                <p>Explore curated masterpieces across smartphones, laptops, cameras, sound design devices, and bespoke
+                    essential accessories.</p>
+                <a href="#phones" class="btn">Explore Collection</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-showcase.svg" alt="Curated Tech Devices Showcase Architecture" width="600" height="400"
+                    decoding="async">
+            </div>
+        </section>
+
+        <!--================ CATEGORY =================-->
+        <section class="categories fade-in-section" aria-label="Product Categories">
+            <div class="category" data-cat="Phones" role="button" tabindex="0" aria-label="Filter Phones Category">
+                <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
+                <h3>Phones</h3>
+            </div>
+            <div class="category" data-cat="Laptops" role="button" tabindex="0" aria-label="Filter Laptops Category">
+                <i class="fa-solid fa-laptop" aria-hidden="true"></i>
+                <h3>Laptops</h3>
+            </div>
+            <div class="category" data-cat="Headphones" role="button" tabindex="0"
+                aria-label="Filter Headphones Category">
+                <i class="fa-solid fa-headphones" aria-hidden="true"></i>
+                <h3>Headphones</h3>
+            </div>
+            <div class="category" data-cat="Cameras" role="button" tabindex="0" aria-label="Filter Cameras Category">
+                <i class="fa-solid fa-camera" aria-hidden="true"></i>
+                <h3>Cameras</h3>
+            </div>
+            <div class="category" data-cat="Smart Watches" role="button" tabindex="0"
+                aria-label="Filter Smart Watches Category">
+                <i class="fa-solid fa-clock" aria-hidden="true"></i>
+                <h3>Smart Watches</h3>
+            </div>
+            <div class="category" data-cat="Gaming" role="button" tabindex="0" aria-label="Filter Gaming Category">
+                <i class="fa-solid fa-gamepad" aria-hidden="true"></i>
+                <h3>Gaming</h3>
+            </div>
+            <div class="category" data-cat="Accessories" role="button" tabindex="0"
+                aria-label="Filter Accessories Category">
+                <i class="fa-solid fa-plug" aria-hidden="true"></i>
+                <h3>Accessories</h3>
+            </div>
+            <div class="category" data-cat="Speakers" role="button" tabindex="0" aria-label="Filter Speakers Category">
+                <i class="fa-solid fa-volume-high" aria-hidden="true"></i>
+                <h3>Speakers</h3>
+            </div>
+        </section>
+
+        <!--================ SEARCH AND CONTROLS PLACEHOLDER =================-->
+        <div id="showroom-controls-hook"></div>
+
+        <!--================ PHONES =================-->
+        <section id="phones" class="products fade-in-section">
+            <div class="section-title">
+                <p>01 / Handheld Devices</p>
+                <h2>Smartphones</h2>
+            </div>
+            <div class="product-grid">
+                <!-- Skeleton Placeholders -->
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ LAPTOPS =================-->
+        <section id="laptops" class="products fade-in-section">
+            <div class="section-title">
+                <p>02 / Personal Architecture</p>
+                <h2>Laptops</h2>
+            </div>
+            <div class="product-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ HEADPHONES =================-->
+        <section id="headphones" class="products fade-in-section">
+            <div class="section-title">
+                <p>03 / Acoustic Solitude</p>
+                <h2>Headphones</h2>
+            </div>
+            <div class="product-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ CAMERAS =================-->
+        <section id="cameras" class="products fade-in-section">
+            <div class="section-title">
+                <p>04 / Visual Chronology</p>
+                <h2>Cameras</h2>
+            </div>
+            <div class="product-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ SMART WATCHES =================-->
+        <section id="smart-watches" class="products fade-in-section">
+            <div class="section-title">
+                <p>05 / Haute Chronometry</p>
+                <h2>Smart Watches</h2>
+            </div>
+            <div class="product-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ ACCESSORIES =================-->
+        <section id="accessories" class="products fade-in-section">
+            <div class="section-title">
+                <p>06 / Monolithic Essentials</p>
+                <h2>Accessories</h2>
+            </div>
+            <div class="product-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ GAMING =================-->
+        <section id="gaming" class="products fade-in-section">
+            <div class="section-title">
+                <p>07 / Spatial Simulation</p>
+                <h2>Gaming</h2>
+            </div>
+            <div class="product-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ SPEAKERS =================-->
+        <section id="speakers" class="products fade-in-section">
+            <div class="section-title">
+                <p>08 / Kinetic Resonance</p>
+                <h2>Bluetooth Speakers</h2>
+            </div>
+            <div class="product-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </section>
+
+        <!--================ WHY CHOOSE US =================-->
+        <section class="features fade-in-section" aria-label="Premium Standard Pillars">
+            <div class="feature-box">
+                <i class="fa-solid fa-medal" aria-hidden="true"></i>
+                <h3>Authenticity</h3>
+                <p>Sourced meticulously and strictly directly through brand founders and accredited global distributors.
+                </p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-tags" aria-hidden="true"></i>
+                <h3>Value Precision</h3>
+                <p>Meticulously structured pricing matching global metrics with tailored acquisition programs.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                <h3>Secured Warranties</h3>
+                <p>Every piece tier-stamped with institutional multi-year official manufacturing warranties.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fa-solid fa-headset" aria-hidden="true"></i>
+                <h3>Private Concierge</h3>
+                <p>Access our signature private support channels pre and post procurement, 24 hours a day.</p>
+            </div>
+        </section>
+
+        <!--================ STORE GALLERY =================-->
+        <section class="gallery fade-in-section">
+            <div class="section-title">
+                <p>Atmosphere</p>
+                <h2>Inside Our Showrooms</h2>
+            </div>
+            <div class="gallery-grid">
+                <img src="images/store1.svg" alt="Showroom gallery interior frame 1" loading="lazy" decoding="async">
+                <img src="images/store2.svg" alt="Showroom gallery interior frame 2" loading="lazy" decoding="async">
+                <img src="images/store3.svg" alt="Showroom gallery interior frame 3" loading="lazy" decoding="async">
+                <img src="images/store4.svg" alt="Showroom gallery interior frame 4" loading="lazy" decoding="async">
+                <img src="images/store5.svg" alt="Showroom gallery interior frame 5" loading="lazy" decoding="async">
+                <img src="images/store6.svg" alt="Showroom gallery interior frame 6" loading="lazy" decoding="async">
+            </div>
+        </section>
+
+        <!--================ GOOGLE MAP =================-->
+        <section class="location fade-in-section" id="contact">
+            <div class="section-title">
+                <p>Navigation</p>
+                <h2>Visit Our Studio</h2>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.735623091918!2d77.1025!3d28.6441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjh_MzgnMzguOCJOIDc3XzA2JDA5LjAiRQ!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                    title="ElectroWorld Delhi Location Map Studio" loading="lazy" allowfullscreen=""
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!--================ CONTACT =================-->
+        <section class="contact fade-in-section">
+            <div class="contact-info">
+                <h2>Let's Begin Your Discovery.</h2>
+                <p>Seeking an individualized configuration or rare device model alignment? Speak with our design
+                    coordinators or schedule an in-showroom private preview sequence.</p>
+                <div class="info">
+                    <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Near Bus Stand, Delhi Road</p>
+                    <p><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 98765 43210</p>
+                    <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> concierge@electroworld.com</p>
+                    <p><i class="fa-solid fa-clock" aria-hidden="true"></i> Mon - Sun : 10:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+            <form class="contact-form" novalidate aria-label="Showroom Procurement Request Form">
+                <div class="input-field-wrap">
+                    <input type="text" placeholder="Your Name" required aria-required="true" aria-label="Your Name">
+                </div>
+                <div class="input-field-wrap">
+                    <input type="email" placeholder="Your Email Address" required aria-required="true"
+                        aria-label="Your Email Address">
+                </div>
+                <div class="input-field-wrap">
+                    <input type="tel" placeholder="Phone Number" aria-label="Phone Number">
+                </div>
+                <div class="input-field-wrap">
+                    <textarea rows="6" placeholder="State your procurement requirements or product interest details..."
+                        aria-label="Procurement Request details"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Submit Request</button>
+            </form>
+        </section>
+
+        <!--================ NEWSLETTER =================-->
+        <section class="newsletter fade-in-section">
+            <h2>Private Dispatches.</h2>
+            <p>Subscribe to receive subtle notices on custom releases, hyper-limited gadget updates, and private viewing
+                events.</p>
+            <form class="newsletter-box" aria-label="Newsletter Form">
+                <input type="email" placeholder="Enter your email address" required aria-required="true"
+                    aria-label="Newsletter email input field">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!--================ FOOTER =================-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2>ElectroWorld</h2>
+                <p>An architectural luxury curation house supplying state-of-the-art consumer engineering products,
+                    premium components, and timeless communication peripherals.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Navigation Lines</h3>
+                <a href="#">Home Portfolio</a>
+                <a href="#phones">Smartphones</a>
+                <a href="#laptops">Computing</a>
+                <a href="#headphones">Acoustics</a>
+                <a href="#cameras">Visual Capture</a>
+            </div>
+            <div class="footer-box">
+                <h3>Catalogue Sets</h3>
+                <a href="#accessories">Bespoke Accessories</a>
+                <a href="#gaming">Simulation Gaming</a>
+                <a href="#speakers">Kinetic Sound</a>
+                <a href="#smart-watches">Chronometry</a>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Channels</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="ElectroWorld Facebook Portal Profile"><i class="fab fa-facebook-f"
+                            aria-hidden="true"></i></a>
+                    <a href="#" aria-label="ElectroWorld Instagram Feed Handle"><i class="fab fa-instagram"
+                            aria-hidden="true"></i></a>
+                    <a href="#" aria-label="ElectroWorld WhatsApp Secure Inquiry"><i class="fab fa-whatsapp"
+                            aria-hidden="true"></i></a>
+                    <a href="#" aria-label="ElectroWorld Broadcast YouTube Channel"><i class="fab fa-youtube"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 ElectroWorld Electronics. Designed for Architectural Perfection.</p>
+        </div>
+    </footer>
+
+   
+    <!-- Linked Core Optimization Core JS Module -->
+     
+    <script src="script.js"></script>
+</body>
+
+</html>

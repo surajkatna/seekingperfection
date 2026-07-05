@@ -1,0 +1,565 @@
+/* ==========================================================================
+   RESET CORE SCHEMES AND THEME UTILITIES
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #030712;
+}
+
+body {
+  background-color: #030712;
+  color: #e5e7eb;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+section {
+  position: relative;
+  width: 100%;
+}
+
+.standard-section-block {
+  padding: 100px 5%;
+}
+
+/* TYPOGRAPHY SHARED UTILITIES */
+.section-header-center-align {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+}
+
+.section-title-heading {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+
+.section-subtitle-text {
+  color: #9ca3af;
+  font-size: 1.1rem;
+  margin-top: 16px;
+}
+
+/* ==========================================================================
+   HEADER AND RESPONSIVE NAVIGATION MENU ENGINE
+   ========================================================================== */
+.master-navigation-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(3, 7, 18, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid #1f2937;
+  z-index: 9999;
+}
+
+.navigation-content-wrapper {
+  max-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-branding-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-flash-icon {
+  font-size: 1.5rem;
+  color: #6366f1;
+}
+
+.brand-text-string {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.nav-menu-links-list {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.nav-anchor-item {
+  color: #9ca3af;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-anchor-item:hover {
+  color: #ffffff;
+}
+
+/* HAMBURGER TRIGGER BUTTON DESIGN */
+.hamburger-menu-button-node {
+  display: none; /* Desktop state hidden */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 0;
+}
+
+.hamburger-internal-line {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.3s ease;
+}
+
+/* ==========================================================================
+   HERO DISPLAY GRAPHICS SCREEN SYSTEM
+   ========================================================================== */
+.hero-section-wrapper {
+  padding: 160px 5% 100px 5%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-layout-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-primary-display-title {
+  font-size: 4.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #ffffff;
+  letter-spacing: -2px;
+}
+
+.hero-primary-display-title span {
+  color: #6366f1;
+}
+
+.hero-supporting-body-text {
+  font-size: 1.2rem;
+  color: #9ca3af;
+  margin: 24px 0 40px 0;
+  max-width: 600px;
+}
+
+.hero-cta-button-strip {
+  display: flex;
+  gap: 20px;
+}
+
+.action-button-solid {
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 16px 36px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.action-button-solid:hover {
+  background-color: #6366f1;
+}
+
+.action-button-outline {
+  border: 1px solid #374151;
+  color: #ffffff;
+  padding: 16px 36px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.action-button-outline:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.hero-main-display-image {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #1f2937;
+}
+
+/* ==========================================================================
+   SERVICES QUAD SYSTEM MATRIX GRID
+   ========================================================================== */
+.services-quad-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.service-informational-card {
+  background-color: #0b0f19;
+  border: 1px solid #1f2937;
+  padding: 40px 30px;
+  border-radius: 12px;
+}
+
+.card-accent-icon {
+  font-size: 2rem;
+  color: #6366f1;
+  margin-bottom: 24px;
+}
+
+.service-informational-card h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.service-informational-card p {
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   PROCESS FLOW SCHEMES GRAPH
+   ========================================================================== */
+.process-variant-background {
+  background-color: #070a13;
+}
+
+.process-quad-timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.process-step-item-card {
+  background-color: #0b0f19;
+  border: 1px solid #1f2937;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.process-step-numeric-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: rgba(99, 102, 241, 0.1);
+  color: #6366f1;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.process-step-item-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.process-step-item-card p {
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   CONVERSATIONAL CORE INTERNET MODULE SYSTEM
+   ========================================================================== */
+.ai-split-layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.ai-terminal-interface-wrapper {
+  background-color: #0b0f19;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.terminal-header-bar-node {
+  background-color: #111827;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.bot-online-indicator-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #22c55e;
+  border-radius: 50%;
+}
+
+.terminal-identity-string {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #9ca3af;
+}
+
+.terminal-chat-logs-stream-container {
+  padding: 24px;
+  min-height: 250px;
+}
+
+.bot-incoming-chat-bubble-item {
+  background-color: #1f2937;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 85%;
+  margin-bottom: 20px;
+}
+
+.user-outgoing-chat-bubble-item {
+  background-color: #4f46e5;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 85%;
+  margin: 0 0 20px auto;
+  text-align: right;
+}
+
+.terminal-options-button-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.interactive-option-select-button {
+  width: 100%;
+  background-color: #111827;
+  border: 1px solid #374151;
+  color: #ffffff;
+  padding: 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.interactive-option-select-button:hover {
+  background-color: #1f2937;
+}
+
+.terminal-footer-action-panel {
+  padding: 20px 24px;
+  background-color: #111827;
+  border-top: 1px solid #1f2937;
+}
+
+.action-dispatch-button-node {
+  width: 100%;
+  padding: 16px;
+  background-color: #22c55e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-dispatch-button-node.variant-disabled {
+  background-color: #374151;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* ==========================================================================
+   DATA INGESTION PROFILE INTEGRATION FORM ARCHITECTURE
+   ========================================================================== */
+.contact-variant-background {
+  background-color: #070a13;
+}
+
+.contact-card-frame-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #0b0f19;
+  border: 1px solid #1f2937;
+  padding: 60px;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.contact-main-display-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.contact-supporting-body-copy {
+  color: #9ca3af;
+  margin-top: 16px;
+}
+
+.contact-functional-form-module {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-input-field-element {
+  width: 100%;
+  background-color: #111827;
+  border: 1px solid #374151;
+  padding: 16px;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.form-input-field-element:focus {
+  border-color: #6366f1;
+}
+
+.form-submit-action-button-node {
+  background-color: #ffffff;
+  color: #030712;
+  border: none;
+  padding: 16px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   FOOTER RUNS CONTROL SYSTEMS
+   ========================================================================== */
+.system-footer-branding-wrapper {
+  padding: 40px 5%;
+  border-top: 1px solid #1f2937;
+  text-align: center;
+}
+
+.system-footer-branding-wrapper p {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   STRICT OVERRIDE MEDIA QUERY ENGINE FOR RESPONSIVE BEHAVIOR
+   ========================================================================== */
+@media screen and (max-width: 1024px) {
+  .hero-primary-display-title {
+    font-size: 3.2rem;
+  }
+  .services-quad-grid-layout,
+  .process-quad-timeline-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .standard-section-block {
+    padding: 60px 24px;
+  }
+  .hero-section-wrapper {
+    padding: 120px 24px 60px 24px;
+  }
+
+  /* UNLOCK FIXED POSITION OVERRIDES FOR RESPONSIVE MENU DRAWER */
+  .hamburger-menu-button-node {
+    display: flex; /* Activate Toggle Handle UI */
+  }
+
+  .nav-menu-links-list {
+    position: fixed;
+    top: 80px;
+    left: -100%; /* Force perfectly offscreen horizontally */
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #030712;
+    border-top: 1px solid #1f2937;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 24px;
+    transition: left 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+  }
+
+  /* JavaScript Toggle Interface Class */
+  .nav-menu-links-list.system-menu-state-open {
+    left: 0 !important; /* Force layout directly onto the viewport viewport */
+  }
+
+  /* HAMBURGER MOTION TRANSLATION STATES */
+  .hamburger-menu-button-node.system-trigger-state-active
+    .hamburger-internal-line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger-menu-button-node.system-trigger-state-active
+    .hamburger-internal-line:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-menu-button-node.system-trigger-state-active
+    .hamburger-internal-line:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  /* FLATTEN GRIDS INTO INDEPENDENT BLOCKS */
+  .hero-layout-container,
+  .services-quad-grid-layout,
+  .process-quad-timeline-grid,
+  .ai-split-layout-grid,
+  .contact-card-frame-container {
+    grid-template-columns: 1fr !important;
+    gap: 32px;
+  }
+
+  .hero-visual-graphic-column {
+    order: -1; /* Push hero illustration directly above titles on phones */
+  }
+
+  .hero-primary-display-title {
+    font-size: 2.5rem;
+  }
+  .section-title-heading {
+    font-size: 2rem;
+  }
+  .contact-card-frame-container {
+    padding: 30px 20px;
+  }
+}

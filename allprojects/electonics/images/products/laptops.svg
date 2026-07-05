@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-label="Laptop product">
+  <rect width="300" height="200" fill="#121212"/>
+  <rect x="60" y="45" width="180" height="110" rx="4" fill="#0a0a0a" stroke="#d4af37" stroke-width="1.5"/>
+  <path d="M45 155 H255 L240 170 H60 Z" fill="#0a0a0a" stroke="#d4af37" stroke-width="1"/>
+</svg>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hanuman AI Wood Assistant for furniture, doors, windows and custom carpentry.">
+  <title>Hanuman AI | Hanuman Saw Mill</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="ai.css">
+</head>
+<body>
+
+  <div class="header">
+    <img src="images/hanuman saw mill logo  . png.png" id="mill" alt="Hanuman Saw Mill Logo">
+    <h1>Hanuman Saw Mill</h1>
+  </div>
+
+  <div class="top">
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="links" id="navLinks">
+      <a href="index.html" class="hot">Home</a>
+      <a href="#" class="hot">About Us</a>
+      <a href="services.html" class="hot">Services</a>
+      <a href="view are work.html" class="hot">Projects</a>
+      <a href="ai.html" class="hot">AI ChatBot</a>
+      <a href="location.html" class="hot">Location</a>
+      <a href="https://wa.me/910000000000" class="hot">Contact Us</a>
+      <a href="#" class="num"><span id="ring">📞</span> 7870734451</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">WOOD EXPERT | PROJECT ESTIMATOR</p>
+      <h1>Plan your next wood project with <span>Hanuman AI</span></h1>
+      <p>
+        Tell us what you want to build. Our assistant will ask a few
+        questions, recommend suitable wood and prepare a rough estimate.
+      </p>
+      <div class="trust-row">
+        <span>Practical recommendations</span>
+        <span>Quick estimates</span>
+        <span>Custom carpentry support</span>
+      </div>
+    </section>
+
+    <section class="chat-card" aria-label="Hanuman AI chat">
+      <div class="chat-header">
+        <div class="avatar">H</div>
+        <div>
+          <h2>Hanuman AI</h2>
+          <p><span class="status-dot"></span>Online and ready to help</p>
+        </div>
+        <button id="resetChat" class="reset-button" type="button" title="Start a new conversation">
+          New chat
+        </button>
+      </div>
+
+      <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+
+      <div class="photo-planner">
+        <button id="photoToggle" class="photo-toggle" type="button" aria-expanded="false">
+          Upload room photo for furniture suggestions
+        </button>
+
+        <div id="photoPanel" class="photo-panel" hidden>
+          <label class="upload-area" for="roomPhoto">
+            <input id="roomPhoto" type="file" accept="image/jpeg,image/png,image/webp" capture="environment">
+            <span id="uploadText">Choose a room photo or use your camera</span>
+          </label>
+          <img id="roomPreview" class="room-preview" alt="Uploaded room preview" hidden>
+
+          <div class="planner-fields">
+            <label>
+              Room type
+              <select id="roomType">
+                <option value="bedroom">Bedroom</option>
+                <option value="living">Living room</option>
+                <option value="dining">Dining room</option>
+                <option value="study">Study room</option>
+                <option value="kitchen">Kitchen</option>
+              </select>
+            </label>
+            <label>
+              Visible wall width (feet)
+              <input id="wallWidth" type="number" min="4" max="40" step="0.5" placeholder="Example: 12">
+            </label>
+          </div>
+
+          <button id="analyzeRoom" class="analyze-button" type="button">Analyze Room</button>
+          <p class="planner-note">
+            Enter one real wall measurement so the suggested furniture sizes have a useful scale.
+          </p>
+        </div>
+      </div>
+
+      <div id="quickReplies" class="quick-replies" aria-label="Suggested replies"></div>
+
+      <form id="chatForm" class="chat-form">
+        <label class="sr-only" for="userInput">Your message</label>
+        <input id="userInput" type="text" autocomplete="off" placeholder="Example: I need a new main door" maxlength="300" required>
+        <button type="submit" aria-label="Send message">Send</button>
+      </form>
+
+      <p class="chat-note">
+        Estimates are indicative. Final price depends on design, wood grade, fittings and site measurements.
+      </p>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/917870734451" target="_blank" rel="noopener noreferrer">
+    WhatsApp us
+  </a>
+
+  <script src="ai.js"></script>
+</body>
+</html>

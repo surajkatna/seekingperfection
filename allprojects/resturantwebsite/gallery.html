@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savoré Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Savoré</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html" class="active-link">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-btn">Book Table</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="gallery-hero">
+        <div class="hero-content">
+            <span>OUR GALLERY</span>
+            <h1>Moments Of Flavor <br> & Elegance</h1>
+            <p>Discover our signature dishes, luxurious interiors and unforgettable dining experiences.</p>
+        </div>
+    </section>
+
+    <section class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ambience">Ambience</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+        <button class="filter-btn" data-filter="events">Events</button>
+        <button class="filter-btn" data-filter="guests">Guests</button>
+    </section>
+
+    <section class="gallery-grid">
+        <div class="gallery-card" data-category="ambience">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80" alt="Restaurant Interior">
+        </div>
+        <div class="gallery-card" data-category="ambience">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Main Dining Room">
+        </div>
+        <div class="gallery-card" data-category="ambience">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Bar Counter Area">
+        </div>
+        <div class="gallery-card" data-category="ambience">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=900&q=80" alt="Cozy Corner Seating">
+        </div>
+        <div class="gallery-card" data-category="ambience">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1559847844-d721426d6edc?auto=format&fit=crop&w=900&q=80" alt="Wine Cellar Room">
+        </div>
+        <div class="gallery-card" data-category="ambience">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=900&q=80" alt="Luxury Table Setup">
+        </div>
+
+        <div class="gallery-card" data-category="food">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=900&q=80" alt="Salmon Dish">
+        </div>
+        <div class="gallery-card" data-category="food">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=80" alt="Dessert Presentation">
+        </div>
+        <div class="gallery-card" data-category="food">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Gourmet Pasta">
+        </div>
+        <div class="gallery-card" data-category="food">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80" alt="Healthy Plate Selection">
+        </div>
+        <div class="gallery-card" data-category="food">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80" alt="Seafood Medley">
+        </div>
+        <div class="gallery-card" data-category="food">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Signature Roast Steak">
+        </div>
+
+        <div class="gallery-card" data-category="events">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80" alt="Chef Live Plating Event">
+        </div>
+        <div class="gallery-card" data-category="events">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80" alt="Gala Banquet Reception">
+        </div>
+        <div class="gallery-card" data-category="events">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=900&q=80" alt="Champagne Toast Celebration">
+        </div>
+        <div class="gallery-card" data-category="events">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=900&q=80" alt="Wine Tasting Night">
+        </div>
+        <div class="gallery-card" data-category="events">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1482484354545-04b24ef27a14?auto=format&fit=crop&w=900&q=80" alt="Private Birthday Party">
+        </div>
+        <div class="gallery-card" data-category="events">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1531050171669-70532854e5ff?auto=format&fit=crop&w=900&q=80" alt="Live Music Dining Show">
+        </div>
+
+        <div class="gallery-card" data-category="guests">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80" alt="Friends Dining Together">
+        </div>
+        <div class="gallery-card" data-category="guests">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80" alt="Happy Couple Cheering">
+        </div>
+        <div class="gallery-card" data-category="guests">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80" alt="Group of Colleagues Having Fun">
+        </div>
+        <div class="gallery-card" data-category="guests">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1543807535-eceef0bc6599?auto=format&fit=crop&w=900&q=80" alt="Family Dinner Outing">
+        </div>
+        <div class="gallery-card" data-category="guests">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=900&q=80" alt="Smiling Guests Interacting">
+        </div>
+        <div class="gallery-card" data-category="guests">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80" alt="Guests Enjoying Desserts">
+        </div>
+
+        <div class="gallery-card" data-category="food"><img loading="lazy" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"></div>
+        <div class="gallery-card" data-category="food"><img loading="lazy" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80"></div>
+        <div class="gallery-card" data-category="food"><img loading="lazy" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=900&q=80"></div>
+        <div class="gallery-card" data-category="food"><img loading="lazy" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80"></div>
+        <div class="gallery-card" data-category="ambience"><img loading="lazy" src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=900&q=80"></div>
+        <div class="gallery-card" data-category="ambience"><img loading="lazy" src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80"></div>
+        <div class="gallery-card" data-category="events"><img loading="lazy" src="https://images.unsplash.com/photo-1505232458627-a72726f5b712?auto=format&fit=crop&w=900&q=80"></div>
+        <div class="gallery-card" data-category="guests"><img loading="lazy" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80"></div>
+    </section>
+
+    <div class="load-more-wrapper">
+        <button id="loadMoreBtn">Load More Images</button>
+    </div>
+
+    <section class="cta">
+        <div class="cta-box">
+            <h2>Ready For A Luxury Dining Experience?</h2>
+            <p>Reserve your table today and experience exceptional cuisine.</p>
+            <button>Book Table</button>
+        </div>
+    </section>
+
+    <script src="gallery.js"></script>
+</body>
+
+</html>

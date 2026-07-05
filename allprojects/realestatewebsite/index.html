@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstatePro | Luxury Real Estate</title>
+    <meta name="description" content="Premium Indian Real Estate Website">
+    
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="header" id="header">
+        <div class="container nav-container" id="navContainer">
+            <a href="#home" class="logo" id="logo">
+                <i class="fa-solid fa-building"></i>
+                <span id="logoText">EstatePro</span>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links" id="navLinks">
+                    <li class="nav-item"><a class="nav-link" href="#home" id="homeLink">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#properties" id="propertiesLink">Properties</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects" id="projectsLink">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" id="aboutLink">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services" id="servicesLink">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews" id="reviewsLink">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" id="contactLink">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-buttons" id="navButtons">
+                <button class="btn login-btn" id="loginBtn">Login</button>
+                <button class="btn primary-btn" id="postPropertyBtn">Post Property</button>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+        <div class="hero-overlay" id="heroOverlay">
+            <div class="container hero-container" id="heroContainer">
+                <div class="hero-content" id="heroContent">
+                    <h4 class="hero-subtitle" id="heroSubtitle">India's Trusted Real Estate Platform</h4>
+                    <h1 class="hero-title" id="heroTitle">Find Your Dream Home Across India</h1>
+                    <p class="hero-text" id="heroText">Buy apartments, villas, farmhouses, commercial shops and luxury homes at the best prices.</p>
+                    <div class="hero-buttons" id="heroButtons">
+                        <a href="#properties" class="btn primary-btn">Explore Properties</a>
+                        <a href="#contact" class="btn secondary-btn">Book Consultation</a>
+                    </div>
+                </div>
+
+                <div class="hero-search" id="heroSearch">
+                    <form class="search-form" id="searchForm">
+                        <div class="search-group" id="cityGroup">
+                            <label for="citySelect">City</label>
+                            <select id="citySelect">
+                                <option>Choose City</option>
+                                <option>Delhi</option>
+                                <option>Mumbai</option>
+                                <option>Chandigarh</option>
+                                <option>Mohali</option>
+                                <option>Noida</option>
+                                <option>Shimla</option>
+                                <option>Bangalore</option>
+                                <option>Pune</option>
+                            </select>
+                        </div>
+
+                        <div class="search-group" id="propertyTypeGroup">
+                            <label for="propertyType">Property Type</label>
+                            <select id="propertyType">
+                                <option>Apartment</option>
+                                <option>Villa</option>
+                                <option>House</option>
+                                <option>Commercial</option>
+                                <option>Office</option>
+                                <option>Land</option>
+                            </select>
+                        </div>
+
+                        <div class="search-group" id="budgetGroup">
+                            <label for="budget">Budget</label>
+                            <select id="budget">
+                                <option>₹20 Lakh</option>
+                                <option>₹40 Lakh</option>
+                                <option>₹60 Lakh</option>
+                                <option>₹80 Lakh</option>
+                                <option>₹1 Crore</option>
+                                <option>₹2 Crore+</option>
+                            </select>
+                        </div>
+
+                        <div class="search-group" id="bedroomGroup">
+                            <label for="bedrooms">Bedrooms</label>
+                            <select id="bedrooms">
+                                <option>1 BHK</option>
+                                <option>2 BHK</option>
+                                <option>3 BHK</option>
+                                <option>4 BHK</option>
+                                <option>5+ BHK</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn search-btn" id="searchButton">
+                            <i class="fa-solid fa-magnifying-glass"></i> Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ FEATURED PROPERTIES ================-->
+    <section class="featured-properties" id="properties">
+        <div class="container" id="propertiesContainer">
+            <div class="section-header" id="propertiesHeader">
+                <h5 class="section-subtitle" id="propertiesSubtitle">Premium Collection</h5>
+                <h2 class="section-title" id="propertiesTitle">Featured Properties</h2>
+                <p class="section-description" id="propertiesDescription">Discover luxury apartments, villas and commercial properties across India.</p>
+            </div>
+
+            <div class="property-grid" id="propertyGrid">
+                <!-- CARD 1 -->
+                <div class="property-card" id="propertyCard1">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80" alt="Luxury Villa in Mohali">
+                        <span class="property-tag">For Sale</span>
+                        <i class="fa-regular fa-heart wishlist-btn"></i>
+                    </div>
+                    <div class="property-content">
+                        <h3>Luxury Villa</h3>
+                        <p>Mohali, Punjab</p>
+                        <h4>₹1.45 Cr</h4>
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 4 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 3 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 3200 sqft</span>
+                        </div>
+                        <a href="#contact" class="property-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="property-card" id="propertyCard2">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80" alt="Modern Apartment Chandigarh">
+                        <span class="property-tag rent">For Rent</span>
+                        <i class="fa-regular fa-heart wishlist-btn"></i>
+                    </div>
+                    <div class="property-content">
+                        <h3>Modern Apartment</h3>
+                        <p>Chandigarh</p>
+                        <h4>₹35,000 / Month</h4>
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 3 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 2 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 1800 sqft</span>
+                        </div>
+                        <a href="#contact" class="property-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="property-card" id="propertyCard3">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Luxury Penthouse Delhi">
+                        <span class="property-tag">For Sale</span>
+                        <i class="fa-regular fa-heart wishlist-btn"></i>
+                    </div>
+                    <div class="property-content">
+                        <h3>Luxury Penthouse</h3>
+                        <p>Delhi</p>
+                        <h4>₹2.80 Cr</h4>
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 5 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 4500 sqft</span>
+                        </div>
+                        <a href="#contact" class="property-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="property-card" id="propertyCard4">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80" alt="Independent House Shimla">
+                        <span class="property-tag">Ready To Move</span>
+                        <i class="fa-regular fa-heart wishlist-btn"></i>
+                    </div>
+                    <div class="property-content">
+                        <h3>Independent House</h3>
+                        <p>Shimla</p>
+                        <h4>₹82 Lakh</h4>
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 3 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 2 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 2100 sqft</span>
+                        </div>
+                        <a href="#contact" class="property-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="property-card" id="propertyCard5">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" alt="Farm House Kasauli">
+                        <span class="property-tag">For Sale</span>
+                        <i class="fa-regular fa-heart wishlist-btn"></i>
+                    </div>
+                    <div class="property-content">
+                        <h3>Farm House</h3>
+                        <p>Kasauli</p>
+                        <h4>₹3.10 Cr</h4>
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 5 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 7000 sqft</span>
+                        </div>
+                        <a href="#contact" class="property-btn">View Details</a>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="property-card" id="propertyCard6">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80" alt="Studio Apartment Noida">
+                        <span class="property-tag rent">Rent</span>
+                        <i class="fa-regular fa-heart wishlist-btn"></i>
+                    </div>
+                    <div class="property-content">
+                        <h3>Studio Apartment</h3>
+                        <p>Noida</p>
+                        <h4>₹18,000 / Month</h4>
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 1 Bed</span>
+                            <span><i class="fa-solid fa-bath"></i> 1 Bath</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 850 sqft</span>
+                        </div>
+                        <a href="#contact" class="property-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ PROPERTY TYPES ================-->
+    <section class="property-types" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Browse By Property Type</h2>
+                <p>Find the perfect property category for your lifestyle.</p>
+            </div>
+
+            <div class="type-grid">
+                <div class="type-card" id="villaType">
+                    <i class="fa-solid fa-house"></i>
+                    <h3>Luxury Villas</h3>
+                    <p>150+ Listings</p>
+                </div>
+                <div class="type-card" id="apartmentType">
+                    <i class="fa-solid fa-building"></i>
+                    <h3>Apartments</h3>
+                    <p>520+ Listings</p>
+                </div>
+                <div class="type-card" id="commercialType">
+                    <i class="fa-solid fa-city"></i>
+                    <h3>Commercial</h3>
+                    <p>90+ Listings</p>
+                </div>
+                <div class="type-card" id="landType">
+                    <i class="fa-solid fa-mountain-city"></i>
+                    <h3>Plots & Land</h3>
+                    <p>300+ Listings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ STATISTICS ================-->
+    <section class="stats-section" id="statsSection">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h2 class="counter" data-target="2500">0</h2>
+                    <p>Properties Listed</p>
+                </div>
+                <div class="stat-box">
+                    <h2 class="counter" data-target="1800">0</h2>
+                    <p>Happy Families</p>
+                </div>
+                <div class="stat-box">
+                    <h2 class="counter" data-target="95">0</h2>
+                    <p>Cities Covered</p>
+                </div>
+                <div class="stat-box">
+                    <h2 class="counter" data-target="15">0</h2>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ ABOUT SECTION ================-->
+    <section class="about-section" id="about">
+        <div class="container about-container" id="aboutContainer">
+            <div class="about-image" id="aboutImage">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" alt="About EstatePro" id="aboutImg">
+            </div>
+
+            <div class="about-content" id="aboutContent">
+                <h5 class="section-subtitle" id="aboutSubtitle">Who We Are</h5>
+                <h2 class="section-title" id="aboutTitle">Helping Families Find Their Perfect Home</h2>
+                <p class="about-text" id="aboutText">EstatePro is one of India's trusted real estate platforms, offering verified residential and commercial properties. Whether you're buying your first apartment or investing in luxury villas, our experts ensure a smooth and transparent experience.</p>
+                
+                <div class="about-features" id="aboutFeatures">
+                    <div class="feature-item" id="feature1"><i class="fa-solid fa-circle-check"></i><span>100% Verified Properties</span></div>
+                    <div class="feature-item" id="feature2"><i class="fa-solid fa-circle-check"></i><span>Legal Documentation Support</span></div>
+                    <div class="feature-item" id="feature3"><i class="fa-solid fa-circle-check"></i><span>Home Loan Assistance</span></div>
+                    <div class="feature-item" id="feature4"><i class="fa-solid fa-circle-check"></i><span>Professional Property Consultants</span></div>
+                </div>
+                <a href="#contact" class="btn primary-btn" id="aboutBtn">Contact Expert</a>
+            </div>
+        </div>
+    </section>
+
+    <!--================ WHY CHOOSE US ================-->
+    <section class="why-section" id="services">
+        <div class="container" id="whyContainer">
+            <div class="section-header" id="whyHeader">
+                <h5 class="section-subtitle">Our Advantages</h5>
+                <h2 class="section-title">Why Choose EstatePro?</h2>
+                <p>Thousands of families trust us because of our transparency and premium service.</p>
+            </div>
+
+            <div class="why-grid" id="whyGrid">
+                <div class="why-card" id="whyCard1"><div class="why-icon"><i class="fa-solid fa-house-circle-check"></i></div><h3>Verified Listings</h3><p>Every property is verified by our expert team before publishing.</p></div>
+                <div class="why-card" id="whyCard2"><div class="why-icon"><i class="fa-solid fa-handshake"></i></div><h3>Trusted Agents</h3><p>Experienced real estate professionals ready to help.</p></div>
+                <div class="why-card" id="whyCard3"><div class="why-icon"><i class="fa-solid fa-money-bill-trend-up"></i></div><h3>Best Prices</h3><p>Competitive prices with excellent investment opportunities.</p></div>
+                <div class="why-card" id="whyCard4"><div class="why-icon"><i class="fa-solid fa-headset"></i></div><h3>24/7 Support</h3><p>Dedicated support before and after your purchase.</p></div>
+                <div class="why-card" id="whyCard5"><div class="why-icon"><i class="fa-solid fa-building-user"></i></div><h3>Luxury Projects</h3><p>Exclusive premium apartments and villas from top builders.</p></div>
+                <div class="why-card" id="whyCard6"><div class="why-icon"><i class="fa-solid fa-file-signature"></i></div><h3>Easy Documentation</h3><p>Legal paperwork handled professionally for hassle-free ownership.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ AGENTS SECTION ================-->
+    <section class="agents-section" id="agents">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">Professional Team</h5>
+                <h2 class="section-title">Meet Our Agents</h2>
+            </div>
+
+            <div class="agents-grid">
+                <div class="agent-card" id="agent1">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&h=400&q=80" alt="Rahul Sharma">
+                    <h3>Rahul Sharma</h3>
+                    <p>Senior Property Consultant</p>
+                    <div class="agent-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="agent-card" id="agent2">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&h=400&q=80" alt="Priya Kapoor">
+                    <h3>Priya Kapoor</h3>
+                    <p>Luxury Property Expert</p>
+                    <div class="agent-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="agent-card" id="agent3">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&h=400&q=80" alt="Arjun Singh">
+                    <h3>Arjun Singh</h3>
+                    <p>Commercial Specialist</p>
+                    <div class="agent-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ TESTIMONIALS ================-->
+    <section class="testimonial-section" id="reviews">
+        <div class="container" id="testimonialContainer">
+            <div class="section-header" id="testimonialHeader">
+                <h5 class="section-subtitle">Testimonials</h5>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p>More than 15,000 happy families have found their dream home with EstatePro.</p>
+            </div>
+
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-card active" id="testimonialCard1">
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">Buying our first home felt effortless. EstatePro guided us through every step and handled all documentation professionally.</p>
+                    <div class="testimonial-user">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Rohan Mehta">
+                        <div>
+                            <h4>Rohan Mehta</h4>
+                            <span>Delhi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" id="testimonialCard2">
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">Professional agents and verified properties. I bought a villa in Mohali without any stress.</p>
+                    <div class="testimonial-user">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Priya Sharma">
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <span>Mohali</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" id="testimonialCard3">
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">Excellent service from start to finish. Their home loan assistance made everything simple.</p>
+                    <div class="testimonial-user">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80" alt="Amit Verma">
+                        <div>
+                            <h4>Amit Verma</h4>
+                            <span>Chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-buttons" id="sliderButtons">
+                <button type="button" id="prevReview"><i class="fa-solid fa-chevron-left"></i></button>
+                <button type="button" id="nextReview"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!--================ FAQ SECTION ================-->
+    <section class="faq-section" id="faq">
+        <div class="container" id="faqContainer">
+            <div class="section-header">
+                <h5 class="section-subtitle">Frequently Asked Questions</h5>
+                <h2 class="section-title">Got Questions?</h2>
+            </div>
+
+            <div class="faq-wrapper" id="faqWrapper">
+                <div class="faq-item active" id="faq1">
+                    <div class="faq-question">
+                        <h3>How do I schedule a property visit?</h3>
+                        <i class="fa-solid fa-plus faqIcon"></i>
+                    </div>
+                    <div class="faq-answer"><p>Click the "View Details" button or contact our team using the enquiry form to schedule a free visit.</p></div>
+                </div>
+
+                <div class="faq-item" id="faq2">
+                    <div class="faq-question">
+                        <h3>Do you provide home loan assistance?</h3>
+                        <i class="fa-solid fa-plus faqIcon"></i>
+                    </div>
+                    <div class="faq-answer"><p>Yes. We work with leading Indian banks to help you secure the best home loan offers.</p></div>
+                </div>
+
+                <div class="faq-item" id="faq3">
+                    <div class="faq-question">
+                        <h3>Are all properties verified?</h3>
+                        <i class="fa-solid fa-plus faqIcon"></i>
+                    </div>
+                    <div class="faq-answer"><p>Every listing is verified by our legal and field teams before appearing on our website.</p></div>
+                </div>
+
+                <div class="faq-item" id="faq4">
+                    <div class="faq-question">
+                        <h3>Can I post my own property?</h3>
+                        <i class="fa-solid fa-plus faqIcon"></i>
+                    </div>
+                    <div class="faq-answer"><p>Absolutely. Click the "Post Property" button in the navigation bar to submit your listing.</p></div>
+                </div>
+
+                <div class="faq-item" id="faq5">
+                    <div class="faq-question">
+                        <h3>Do you charge brokerage?</h3>
+                        <i class="fa-solid fa-plus faqIcon"></i>
+                    </div>
+                    <div class="faq-answer"><p>Brokerage depends on the property type and seller agreement. Our consultants explain all charges upfront.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ CALL TO ACTION ================-->
+    <section class="cta-section" id="ctaSection">
+        <div class="container" id="ctaContainer">
+            <div class="cta-content">
+                <h2>Ready To Find Your Dream Home?</h2>
+                <p>Explore thousands of verified properties across India.</p>
+                <a href="#contact" class="btn primary-btn">Book Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!--================ CONTACT SECTION ================-->
+    <section class="contact-section" id="contact">
+        <div class="container contact-container" id="contactContainer">
+            <div class="contact-info" id="contactInfo">
+                <h5 class="section-subtitle">Contact Us</h5>
+                <h2 class="section-title">Let's Find Your Dream Property</h2>
+                <p class="contact-description">Speak with our property experts today. Whether you're buying, selling, or investing, we're here to help you every step of the way.</p>
+
+                <div class="contact-card" id="addressCard">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div><h4>Office Address</h4><p>Sector 17, Chandigarh, India</p></div>
+                </div>
+
+                <div class="contact-card" id="phoneCard">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div><h4>Phone</h4><p>+91 98765 43210</p></div>
+                </div>
+
+                <div class="contact-card" id="emailCard">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div><h4>Email</h4><p>info@estatepro.in</p></div>
+                </div>
+
+                <div class="contact-card" id="timeCard">
+                    <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div><h4>Working Hours</h4><p>Mon - Sat : 9 AM - 7 PM</p></div>
+                </div>
+            </div>
+
+            <!--================ CONTACT FORM ================-->
+            <div class="contact-form-box" id="contactFormBox">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="example@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Preferred City</label>
+                            <select id="city">
+                                <option>Choose City</option>
+                                <option>Delhi</option>
+                                <option>Chandigarh</option>
+                                <option>Mohali</option>
+                                <option>Shimla</option>
+                                <option>Noida</option>
+                                <option>Mumbai</option>
+                                <option>Bangalore</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="propertyInterest">Interested In</label>
+                        <select id="propertyInterest">
+                            <option>Apartment</option>
+                            <option>Villa</option>
+                            <option>House</option>
+                            <option>Commercial Space</option>
+                            <option>Office</option>
+                            <option>Land</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budgetRange">Budget</label>
+                        <select id="budgetRange">
+                            <option>₹20 Lakh</option>
+                            <option>₹40 Lakh</option>
+                            <option>₹60 Lakh</option>
+                            <option>₹80 Lakh</option>
+                            <option>₹1 Crore</option>
+                            <option>₹2 Crore+</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" placeholder="Tell us about your dream property..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn primary-btn" id="submitButton">Send Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--================ GOOGLE MAP ================-->
+    <section class="map-section" id="mapSection">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">Location</h5>
+                <h2 class="section-title">Visit Our Office</h2>
+            </div>
+            <div class="map-box" id="mapBox">
+                <iframe id="googleMap" src="https://www.google.com/maps?q=Chandigarh&output=embed" loading="lazy" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!--================ NEWSLETTER ================-->
+    <section class="newsletter-section" id="newsletterSection">
+        <div class="container newsletter-container">
+            <div class="newsletter-content">
+                <h2>Subscribe For Latest Property Updates</h2>
+                <p>Receive new listings, price drops and investment opportunities directly in your inbox.</p>
+            </div>
+
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                <button type="submit" class="btn primary-btn" id="subscribeBtn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!--================ FOOTER =================-->
+    <footer class="footer" id="footer">
+        <div class="container footer-container" id="footerContainer">
+            <div class="footer-column" id="footerCompany">
+                <a href="#home" class="footer-logo">
+                    <i class="fa-solid fa-building"></i> EstatePro
+                </a>
+                <p>EstatePro helps buyers, sellers and investors discover premium properties across India with complete transparency.</p>
+                <div class="footer-social" id="footerSocial">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column" id="footerLinks">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column" id="footerProperties">
+                <h3>Property Types</h3>
+                <ul>
+                    <li><a href="#">Luxury Villas</a></li>
+                    <li><a href="#">Apartments</a></li>
+                    <li><a href="#">Commercial</a></li>
+                    <li><a href="#">Office Spaces</a></li>
+                    <li><a href="#">Farm Houses</a></li>
+                    <li><a href="#">Plots & Land</a></li>
+                    <li><a href="#">Rental Homes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column" id="footerContact">
+                <h3>Contact Info</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Sector 17, Chandigarh, India</p>
+                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fa-solid fa-envelope"></i> info@estatepro.in</p>
+                <p><i class="fa-solid fa-clock"></i> Mon - Sat : 9 AM - 7 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom" id="footerBottom">
+            <p>© 2026 EstatePro. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--================ BACK TO TOP =================-->
+    <button id="backToTop" class="back-to-top" type="button">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!--================ LOADER =================-->
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!--================ JAVASCRIPT =================-->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1402 @@
+[
+    {
+        "id": 1,
+        "name": "Lays Classic",
+        "price": 20, 
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Lays%20Classic%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 2,
+        "name": "Kurkure Masala",
+        "price": 20,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Kurkure%20Masala%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 3,
+        "name": "Doritos",
+        "price": 50,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Doritos%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 4,
+        "name": "Almonds",
+        "price": 250,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Almonds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 5,
+        "name": "Cashew Nuts",
+        "price": 320,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Cashew%20Nuts%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 6,
+        "name": "Coca Cola",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Coca%20Cola%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 7,
+        "name": "Pepsi",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Pepsi%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 8,
+        "name": "Lizol",
+        "price": 160,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Lizol%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 9,
+        "name": "Dettol",
+        "price": 190,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Dettol%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 10,
+        "name": "Rice",
+        "price": 120,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Rice%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 11,
+        "name": "Pringles Potato Chips",
+        "price": 110,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Pringles%20Potato%20Chips%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 12,
+        "name": "Walnuts Premium",
+        "price": 450,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Walnuts%20Premium%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 13,
+        "name": "Wheat Flour 5kg",
+        "price": 260,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Wheat%20Flour%205kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 14,
+        "name": "Sprite",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Sprite%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 15,
+        "name": "Vim Dishwash Liquid",
+        "price": 99,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Vim%20Dishwash%20Liquid%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 16,
+        "name": "Cheetos Cheese Puffs",
+        "price": 30,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Cheetos%20Cheese%20Puffs%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 17,
+        "name": "Raisins (Kishmish)",
+        "price": 140,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Raisins%20(Kishmish)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 18,
+        "name": "Toor Dal 1kg",
+        "price": 175,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Toor%20Dal%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 19,
+        "name": "Red Bull Energy Drink",
+        "price": 125,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Red%20Bull%20Energy%20Drink%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 20,
+        "name": "Surf Excel Detergent",
+        "price": 340,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Surf%20Excel%20Detergent%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 21,
+        "name": "Haldiram Bhujia Sev",
+        "price": 55,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Haldiram%20Bhujia%20Sev%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 22,
+        "name": "Pistachios Roasted",
+        "price": 380,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Pistachios%20Roasted%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 23,
+        "name": "Sugar 1kg",
+        "price": 50,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Sugar%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 24,
+        "name": "Fanta Orange",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Fanta%20Orange%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 25,
+        "name": "Harpic Toilet Cleaner",
+        "price": 105,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Harpic%20Toilet%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 26,
+        "name": "Bingo Mad Angles",
+        "price": 20,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Bingo%20Mad%20Angles%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 27,
+        "name": "Dried Figs (Anjeer)",
+        "price": 490,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Dried%20Figs%20(Anjeer)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 28,
+        "name": "Sunflower Oil 1L",
+        "price": 145,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Sunflower%20Oil%201L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 29,
+        "name": "7Up Lemonade",
+        "price": 38,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=7Up%20Lemonade%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 30,
+        "name": "Comfort Fabric Conditioner",
+        "price": 220,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Comfort%20Fabric%20Conditioner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 31,
+        "name": "Oreo Biscuit",
+        "price": 35,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Oreo%20Biscuit%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 32,
+        "name": "Dates Premium",
+        "price": 199,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Dates%20Premium%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 33,
+        "name": "Iodized Salt 1kg",
+        "price": 28,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Iodized%20Salt%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 34,
+        "name": "Monster Energy",
+        "price": 110,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Monster%20Energy%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 35,
+        "name": "Colin Glass Cleaner",
+        "price": 115,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Colin%20Glass%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 36,
+        "name": "Good Day Cashew Cookies",
+        "price": 30,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Good%20Day%20Cashew%20Cookies%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 37,
+        "name": "Dried Apricots",
+        "price": 290,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Dried%20Apricots%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 38,
+        "name": "Moong Dal 1kg",
+        "price": 160,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Moong%20Dal%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 39,
+        "name": "Mirinda",
+        "price": 38,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Mirinda%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 40,
+        "name": "Pril Dishwash Bar",
+        "price": 30,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Pril%20Dishwash%20Bar%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 41,
+        "name": "Hide & Seek Biscuits",
+        "price": 40,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Hide%20%26%20Seek%20Biscuits%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 42,
+        "name": "Macadamia Nuts",
+        "price": 750,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Macadamia%20Nuts%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 43,
+        "name": "Basmati Rice 5kg",
+        "price": 650,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Basmati%20Rice%205kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 44,
+        "name": "Thums Up",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Thums%20Up%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 45,
+        "name": "Dettol Liquid Handwash",
+        "price": 99,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Dettol%20Liquid%20Handwash%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 46,
+        "name": "Act II Popcorn",
+        "price": 60,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Act%20II%20Popcorn%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 47,
+        "name": "Hazelnuts Raw",
+        "price": 540,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Hazelnuts%20Raw%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 48,
+        "name": "Mustard Oil 1L",
+        "price": 170,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Mustard%20Oil%201L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 49,
+        "name": "Minute Maid Pulpy Orange",
+        "price": 70,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Minute%20Maid%20Pulpy%20Orange%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 50,
+        "name": "Ariel Detergent Powder",
+        "price": 310,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Ariel%20Detergent%20Powder%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 51,
+        "name": "KitKat Chocolate",
+        "price": 25,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=KitKat%20Chocolate%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 52,
+        "name": "Brazil Nuts",
+        "price": 690,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Brazil%20Nuts%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 53,
+        "name": "Chana Dal 1kg",
+        "price": 110,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Chana%20Dal%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 54,
+        "name": " Tropicana Apple Juice",
+        "price": 120,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Tropicana%20Apple%20Juice%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 55,
+        "name": "Domex Disinfectant Floor Cleaner",
+        "price": 140,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Domex%20Disinfectant%20Floor%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 56,
+        "name": "Snickers Bar",
+        "price": 50,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Snickers%20Bar%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 57,
+        "name": "Dried Cranberries",
+        "price": 310,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Dried%20Cranberries%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 58,
+        "name": "Pure Ghee 1L",
+        "price": 720,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Pure%20Ghee%201L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 59,
+        "name": "Real Mixed Fruit Juice",
+        "price": 115,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Real%20Mixed%20Fruit%20Juice%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 60,
+        "name": "Gala Floor Broom",
+        "price": 180,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Gala%20Floor%20Broom%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 61,
+        "name": "Dairy Milk Silk",
+        "price": 80,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Dairy%20Milk%20Silk%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 62,
+        "name": "Pine Nuts (Chilgoza)",
+        "price": 1200,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Pine%20Nuts%20(Chilgoza)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 63,
+        "name": "Urad Dal 1kg",
+        "price": 165,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Urad%20Dal%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 64,
+        "name": "Appy Fizz",
+        "price": 35,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Appy%20Fizz%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 65,
+        "name": "Godrej Protekt Handwash",
+        "price": 85,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Godrej%20Protekt%20Handwash%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 66,
+        "name": "Nutella Spread",
+        "price": 380,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Nutella%20Spread%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 67,
+        "name": "Prunes (Dried Plums)",
+        "price": 280,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Prunes%20(Dried%20Plums)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 68,
+        "name": "Poha (Flattened Rice)",
+        "price": 60,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Poha%20(Flattened%20Rice)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 69,
+        "name": "Gatorade Blue Bolt",
+        "price": 60,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Gatorade%20Blue%20Bolt%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 70,
+        "name": "Mr. Muscle Kitchen Cleaner",
+        "price": 150,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Mr.%20Muscle%20Kitchen%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 71,
+        "name": "Maggi 2-Min Noodles",
+        "price": 14,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Maggi%202-Min%20Noodles%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 72,
+        "name": "Black Raisins",
+        "price": 190,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Black%20Raisins%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 73,
+        "name": "Turmeric Powder 200g",
+        "price": 65,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Turmeric%20Powder%20200g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 74,
+        "name": "Maaza Mango Drink",
+        "price": 45,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Maaza%20Mango%20Drink%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 75,
+        "name": "Tide Detergent Bar",
+        "price": 20,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Tide%20Detergent%20Bar%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 76,
+        "name": "Papad Roasted",
+        "price": 45,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Papad%20Roasted%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 77,
+        "name": "Flax Seeds",
+        "price": 120,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Flax%20Seeds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 78,
+        "name": "Red Chilli Powder 200g",
+        "price": 85,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Red%20Chilli%20Powder%20200g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 79,
+        "name": "Schweppes Tonic Water",
+        "price": 65,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Schweppes%20Tonic%20Water%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 80,
+        "name": "Ezeee Liquid Detergent",
+        "price": 195,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Ezeee%20Liquid%20Detergent%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 81,
+        "name": "Haldiram Aloo Bhujia",
+        "price": 55,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Haldiram%20Aloo%20Bhujia%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 82,
+        "name": "Chia Seeds",
+        "price": 240,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Chia%20Seeds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 83,
+        "name": "Coriander Powder 200g",
+        "price": 60,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Coriander%20Powder%20200g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 84,
+        "name": "Paper Boat Aamras",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Paper%20Boat%20Aamras%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 85,
+        "name": "Pledge Furniture Polish",
+        "price": 240,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Pledge%20Furniture%20Polish%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 86,
+        "name": "5 Star Chocolate",
+        "price": 20,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=5%20Star%20Chocolate%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 87,
+        "name": "Pumpkin Seeds Roasted",
+        "price": 180,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Pumpkin%20Seeds%20Roasted%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 88,
+        "name": "Garam Masala 100g",
+        "price": 90,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Garam%20Masala%20100g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 89,
+        "name": "Bisleri Mineral Water 1L",
+        "price": 20,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Bisleri%20Mineral%20Water%201L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 90,
+        "name": "Scotch-Brite Scrub Pad",
+        "price": 35,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Scotch-Brite%20Scrub%20Pad%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 91,
+        "name": "Parle-G Biscuits Large",
+        "price": 30,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Parle-G%20Biscuits%20Large%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 92,
+        "name": "Sunflower Seeds",
+        "price": 150,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Sunflower%20Seeds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 93,
+        "name": "Rajma (Red Kidney Beans)",
+        "price": 150,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Rajma%20(Red%20Kidney%20Beans)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 94,
+        "name": "Nescafe Ready Latte",
+        "price": 60,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Nescafe%20Ready%20Latte%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 95,
+        "name": "Odonil Air Freshener",
+        "price": 65,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Odonil%20Air%20Freshener%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 96,
+        "name": "Munch Chocolate",
+        "price": 10,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Munch%20Chocolate%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 97,
+        "name": "Goji Berries Dried",
+        "price": 520,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Goji%20Berries%20Dried%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 98,
+        "name": "Kabuli Chana (Chickpeas)",
+        "price": 160,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Kabuli%20Chana%20(Chickpeas)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 99,
+        "name": "Bournvita 500g",
+        "price": 240,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Bournvita%20500g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 100,
+        "name": "Nirma Detergent Powder",
+        "price": 70,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Nirma%20Detergent%20Powder%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 101,
+        "name": "Lays Maxx",
+        "price": 30,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Lays%20Maxx%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 102,
+        "name": "Salted Almonds",
+        "price": 270,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Salted%20Almonds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 103,
+        "name": "Brown Rice 1kg",
+        "price": 140,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Brown%20Rice%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 104,
+        "name": "Diet Coke",
+        "price": 45,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Diet%20Coke%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 105,
+        "name": "Lizol Citrus Floor Cleaner",
+        "price": 165,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Lizol%20Citrus%20Floor%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 106,
+        "name": "Kurkure Puffcorn",
+        "price": 20,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Kurkure%20Puffcorn%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 107,
+        "name": "Kesar (Saffron) 1g",
+        "price": 350,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Kesar%20(Saffron)%201g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 108,
+        "name": "Suji (Semolina) 1kg",
+        "price": 55,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Suji%20(Semolina)%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 109,
+        "name": "Pepsi Black",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Pepsi%20Black%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 110,
+        "name": "Dettol Antiseptic Liquid",
+        "price": 210,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Dettol%20Antiseptic%20Liquid%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 111,
+        "name": "Pringles Sour Cream",
+        "price": 110,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Pringles%20Sour%20Cream%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 112,
+        "name": "Walnut Kernels",
+        "price": 480,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Walnut%20Kernels%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 113,
+        "name": "Maida (Refined Flour) 1kg",
+        "price": 50,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Maida%20(Refined%20Flour)%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 114,
+        "name": "Sprite Zero",
+        "price": 45,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Sprite%20Zero%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 115,
+        "name": "Vim Dishwash Gel Lemon",
+        "price": 105,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Vim%20Dishwash%20Gel%20Lemon%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 116,
+        "name": "Cheetos Flamin Hot",
+        "price": 35,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Cheetos%20Flamin%20Hot%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 117,
+        "name": "Green Raisins",
+        "price": 150,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Green%20Raisins%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 118,
+        "name": "Masoor Dal 1kg",
+        "price": 130,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Masoor%20Dal%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 119,
+        "name": "Red Bull Sugarfree",
+        "price": 125,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Red%20Bull%20Sugarfree%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 120,
+        "name": "Surf Excel Easy Wash",
+        "price": 150,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Surf%20Excel%20Easy%20Wash%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 121,
+        "name": "Haldiram Khatta Meetha",
+        "price": 55,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Haldiram%20Khatta%20Meetha%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 122,
+        "name": "Pistachios Salted",
+        "price": 390,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Pistachios%20Salted%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 123,
+        "name": "Sugar Cubes 500g",
+        "price": 75,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Sugar%20Cubes%20500g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 124,
+        "name": "Fanta Apple",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Fanta%20Apple%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 125,
+        "name": "Harpic Bathroom Cleaner",
+        "price": 99,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Harpic%20Bathroom%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 126,
+        "name": "Bingo Potato Chips",
+        "price": 20,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Bingo%20Potato%20Chips%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 127,
+        "name": "Dried Blueberries",
+        "price": 350,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Dried%20Blueberries%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 128,
+        "name": "Rice Bran Oil 1L",
+        "price": 160,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Rice%20Bran%20Oil%201L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 129,
+        "name": "7Up Nimbooz",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=7Up%20Nimbooz%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 130,
+        "name": "Comfort Lily Scent",
+        "price": 230,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Comfort%20Lily%20Scent%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 131,
+        "name": "Oreo Chocolate Cream",
+        "price": 35,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Oreo%20Chocolate%20Cream%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 132,
+        "name": "Kimia Dates",
+        "price": 240,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Kimia%20Dates%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 133,
+        "name": "Rock Salt (Sendha Namak)",
+        "price": 60,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Rock%20Salt%20(Sendha%20Namak)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 134,
+        "name": "Monster Ultra Energy",
+        "price": 115,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Monster%20Ultra%20Energy%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 135,
+        "name": "Colin Spray Refill",
+        "price": 95,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Colin%20Spray%20Refill%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 136,
+        "name": "Good Day Pista Cookies",
+        "price": 30,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Good%20Day%20Pista%20Cookies%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 137,
+        "name": "Mixed Dry Fruits Mix",
+        "price": 420,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Mixed%20Dry%20Fruits%20Mix%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 138,
+        "name": "Kala Chana 1kg",
+        "price": 120,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Kala%20Chana%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 139,
+        "name": "Mirinda Lime",
+        "price": 38,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Mirinda%20Lime%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 140,
+        "name": "Pril Dishwash Liquid",
+        "price": 110,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Pril%20Dishwash%20Liquid%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 141,
+        "name": "Bourbon Biscuits",
+        "price": 30,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Bourbon%20Biscuits%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 142,
+        "name": "Roasted Cashews",
+        "price": 340,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Roasted%20Cashews%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 143,
+        "name": "Jeera Rice 1kg",
+        "price": 110,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Jeera%20Rice%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 144,
+        "name": "Thums Up Charged",
+        "price": 45,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Thums%20Up%20Charged%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 145,
+        "name": "Lifebuoy Liquid Handwash",
+        "price": 89,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Lifebuoy%20Liquid%20Handwash%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 146,
+        "name": "Act II Cheese Popcorn",
+        "price": 65,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Act%20II%20Cheese%20Popcorn%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 147,
+        "name": "Salted Pistachios",
+        "price": 410,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Salted%20Pistachios%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 148,
+        "name": "Olive Oil Extra Virgin 1L",
+        "price": 950,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Olive%20Oil%20Extra%20Virgin%201L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 149,
+        "name": "Minute Maid Guava Juice",
+        "price": 70,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Minute%20Maid%20Guava%20Juice%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 150,
+        "name": "Ariel Matic Liquid",
+        "price": 280,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Ariel%20Matic%20Liquid%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 151,
+        "name": "Perk Chocolate Box",
+        "price": 100,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Perk%20Chocolate%20Box%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 152,
+        "name": "Poppy Seeds (Khus Khus)",
+        "price": 350,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Poppy%20Seeds%20(Khus%20Khus)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 153,
+        "name": "Moong Dal Chilka 1kg",
+        "price": 150,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Moong%20Dal%20Chilka%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 154,
+        "name": "Tropicana Orange Juice",
+        "price": 120,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Tropicana%20Orange%20Juice%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 155,
+        "name": "Domex Toilet Cleaner",
+        "price": 125,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Domex%20Toilet%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 156,
+        "name": "Milkybar Chocolate",
+        "price": 20,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Milkybar%20Chocolate%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 157,
+        "name": "Black Dates Premium",
+        "price": 220,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Black%20Dates%20Premium%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 158,
+        "name": "Cow Ghee 500ml",
+        "price": 380,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Cow%20Ghee%20500ml%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 159,
+        "name": "Real Guava Juice",
+        "price": 115,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Real%20Guava%20Juice%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 160,
+        "name": "Gala Sponge Wipe Pack",
+        "price": 120,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Gala%20Sponge%20Wipe%20Pack%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 161,
+        "name": "Dairy Milk Crackle",
+        "price": 50,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Dairy%20Milk%20Crackle%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 162,
+        "name": "Lotus Seeds (Makhana)",
+        "price": 250,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Lotus%20Seeds%20(Makhana)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 163,
+        "name": "Kabuli Chana Premium 1kg",
+        "price": 170,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Kabuli%20Chana%20Premium%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 164,
+        "name": "Appy Apple Juice Tin",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Appy%20Apple%20Juice%20Tin%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 165,
+        "name": "Santoor Handwash Liquid",
+        "price": 79,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Santoor%20Handwash%20Liquid%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 166,
+        "name": "Peanut Butter Creamy",
+        "price": 210,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Peanut%20Butter%20Creamy%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 167,
+        "name": "Dried Goji Berries 100g",
+        "price": 299,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Dried%20Goji%20Berries%20100g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 168,
+        "name": "Sabudana (Tapioca Pearls)",
+        "price": 85,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Sabudana%20(Tapioca%20Pearls)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 169,
+        "name": "Gatorade Orange Drink",
+        "price": 60,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Gatorade%20Orange%20Drink%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 170,
+        "name": "Mr Muscle Bathroom Cleaner",
+        "price": 145,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Mr%20Muscle%20Bathroom%20Cleaner%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 171,
+        "name": "Yippee Noodles Pack",
+        "price": 75,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Yippee%20Noodles%20Pack%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 172,
+        "name": "Seedless Raisins",
+        "price": 160,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Seedless%20Raisins%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 173,
+        "name": "Black Pepper Powder 100g",
+        "price": 115,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Black%20Pepper%20Powder%20100g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 174,
+        "name": "Maaza Mango 1.2L",
+        "price": 75,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Maaza%20Mango%201.2L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 175,
+        "name": "Tide Plus Detergent Powder",
+        "price": 160,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Tide%20Plus%20Detergent%20Powder%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 176,
+        "name": "Haldiram Navrattan Mix",
+        "price": 55,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Haldiram%20Navrattan%20Mix%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 177,
+        "name": "Almond Kernels Premium",
+        "price": 499,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Almond%20Kernels%20Premium%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 178,
+        "name": "Hing (Asafoetida) 50g",
+        "price": 95,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Hing%20(Asafoetida)%2050g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 179,
+        "name": "Schweppes Ginger Ale",
+        "price": 65,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Schweppes%20Ginger%20Ale%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 180,
+        "name": "Ezee Woolen Liquid 1L",
+        "price": 310,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Ezee%20Woolen%20Liquid%201L%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 181,
+        "name": "Bingo Mad Angles Tomato",
+        "price": 20,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Bingo%20Mad%20Angles%20Tomato%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 182,
+        "name": "Roasted Watermelon Seeds",
+        "price": 110,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Roasted%20Watermelon%20Seeds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 183,
+        "name": "Cumin Seeds (Jeera) 200g",
+        "price": 140,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Cumin%20Seeds%20(Jeera)%20200g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 184,
+        "name": "Paper Boat Anardana",
+        "price": 40,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Paper%20Boat%20Anardana%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 185,
+        "name": "Vanish Liquid Stain Remover",
+        "price": 130,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Vanish%20Liquid%20Stain%20Remover%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 186,
+        "name": "Lotte Choco Pie Pack",
+        "price": 120,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Lotte%20Choco%20Pie%20Pack%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 187,
+        "name": "Raw Sunflower Seeds",
+        "price": 135,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Raw%20Sunflower%20Seeds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 188,
+        "name": "Kasuri Methi 100g",
+        "price": 45,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Kasuri%20Methi%20100g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 189,
+        "name": "Bisleri 500ml",
+        "price": 10,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Bisleri%20500ml%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 190,
+        "name": "Scotch-Brite Kitchen Glove",
+        "price": 99,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Scotch-Brite%20Kitchen%20Glove%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 191,
+        "name": "Parle Monaco Biscuits",
+        "price": 30,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Parle%20Monaco%20Biscuits%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 192,
+        "name": "Salted Pumpkin Seeds",
+        "price": 195,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Salted%20Pumpkin%20Seeds%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 193,
+        "name": "Lobia (Black Eyed Peas)",
+        "price": 130,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Lobia%20(Black%20Eyed%20Peas)%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 194,
+        "name": "Nescafe Classic Coffee 50g",
+        "price": 165,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Nescafe%20Classic%20Coffee%2050g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 195,
+        "name": "Odonil Gel Air Freshener",
+        "price": 80,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Odonil%20Gel%20Air%20Freshener%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 196,
+        "name": "Cadbury Fuse",
+        "price": 35,
+        "category": "snacks",
+        "image": "https://tse1.mm.bing.net/th?q=Cadbury%20Fuse%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 197,
+        "name": "Premium Cashews W240",
+        "price": 450,
+        "category": "dryfruits",
+        "image": "https://tse1.mm.bing.net/th?q=Premium%20Cashews%20W240%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 198,
+        "name": "Green Moong Dal 1kg",
+        "price": 155,
+        "category": "grocery",
+        "image": "https://tse1.mm.bing.net/th?q=Green%20Moong%20Dal%201kg%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 199,
+        "name": "Complan Chocolate 500g",
+        "price": 295,
+        "category": "drinks",
+        "image": "https://tse1.mm.bing.net/th?q=Complan%20Chocolate%20500g%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    },
+    {
+        "id": 200,
+        "name": "Nirma Detergent Bar Pack",
+        "price": 40,
+        "category": "cleaning",
+        "image": "https://tse1.mm.bing.net/th?q=Nirma%20Detergent%20Bar%20Pack%20product%20image&w=300&h=300&c=7&rs=1&p=0&o=5&pid=1.7"
+    }
+]

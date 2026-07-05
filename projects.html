@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previous Projects | Seeking Perfection</title>
+  <meta name="description" content="Previous website and digital product projects by Seeking Perfection.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="scene-grid" aria-hidden="true"></div>
+  <div class="scene-glow" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html#home" aria-label="Seeking Perfection home">
+      <span class="brand-mark">SP</span>
+      <span>Seeking Perfection</span>
+    </a>
+
+    <nav class="site-nav always-visible" aria-label="Projects navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#work">Work</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <a class="header-cta" href="index.html#consultant">
+      <span aria-hidden="true">+</span>
+      Start Brief
+    </a>
+  </header>
+
+  <main>
+    <section class="projects-hero section-band">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Previous projects and selected work.</h1>
+        <p class="hero-text">Explore our completed work. Click on any project card to open the complete live experience full screen.</p>
+      </div>
+    </section>
+
+    <!-- Modified layout section to focus purely on the showcase grid -->
+    <section class="content-section project-showcase-full" aria-labelledby="project-showcase-title">
+      <div class="project-list-full-width">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Live Work</p>
+          <h2 id="project-showcase-title">Selected Projects Archive</h2>
+        </div>
+
+        <div class="portfolio-grid project-card-grid" id="projectCardGrid" aria-label="Project list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Seeking Perfection</strong>
+      <p>Websites, AI solutions and digital growth systems.</p>
+    </div>
+    <a href="index.html#home">Back to home</a>
+  </footer>
+
+  <script src="projects.js"></script>
+</body>
+</html>

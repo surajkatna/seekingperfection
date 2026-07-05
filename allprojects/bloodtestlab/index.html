@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloodCare Elite | Bespoke Diagnostic Laboratories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- BACK TO TOP -->
+    <button class="top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- PREMIUM HEADER -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-droplet-blood"></i>
+                <span>BLOODCARE</span><span class="gold-text">ELITE</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tests">Menu</a></li>
+                <li><a href="#packages">Connoisseur Packages</a></li>
+                <li><a href="#faq">F.A.Q.</a></li>
+                <li><a href="#booking">Reserve Session</a></li>
+            </ul>
+            <button class="book-btn navigation-reserve">
+                Reserve Concierge
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="tag"><i class="fa-solid fa-sparkles"></i> NABL Accredited Private Laboratory</span>
+            <h1>The Gold Standard In <span>Bespoke Diagnostics</span></h1>
+            <p>Experience diagnostic excellence with white-glove home sample collections and private digital analyses compiled within 12 hours.</p>
+            <div class="hero-btns">
+                <button class="primary-btn scroll-to-booking">Schedule Private Draw</button>
+                <button class="secondary-btn" onclick="document.getElementById('packages').scrollIntoView({behavior: 'smooth'})">View Packages</button>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <h3 data-target="15">0</h3>
+                    <p>M+ Screenings</p>
+                </div>
+                <div class="stat">
+                    <h3 data-target="800">0</h3>
+                    <p>Biomarkers</p>
+                </div>
+                <div class="stat">
+                    <h3 data-target="12">0</h3>
+                    <p>Hour Fast-Track</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-luxury-border">
+                <img src="images/bloodtestlab.jpg" alt="Premium Diagnostic Laboratory Workflow">
+            </div>
+        </div>
+    </section>
+
+    <!-- TEST SEARCH & FILTER SYSTEM -->
+    <section class="search-section">
+        <div class="search-wrap">
+            <h2>Locate Specialized Assays</h2>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="testSearch" placeholder="Search by biological marker or test name (e.g., CBC, Liver)...">
+            </div>
+        </div>
+    </section>
+
+    <!-- POPULAR DIAGNOSTIC ASSAYS -->
+    <section class="tests" id="tests">
+        <div class="section-title">
+            <span>Clinical Tier</span>
+            <h2>Popular Diagnostic Assays</h2>
+        </div>
+        <div class="test-grid">
+            <div class="test-card reveal" data-test-value="CBC Test">
+                <div class="card-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                <h3>CBC Profile</h3>
+                <p>Complete Blood Count exploring deep structural cellular pathology.</p>
+                <div class="price-action">
+                    <span class="price">₹499</span>
+                    <button class="select-assay-btn">Select Assay</button>
+                </div>
+            </div>
+            <div class="test-card reveal" data-test-value="Diabetes Profile">
+                <div class="card-icon"><i class="fa-solid fa-droplet"></i></div>
+                <h3>Metabolic Glucose</h3>
+                <p>Advanced HbA1c screening tracking glycemic volatility metrics.</p>
+                <div class="price-action">
+                    <span class="price">₹899</span>
+                    <button class="select-assay-btn">Select Assay</button>
+                </div>
+            </div>
+            <div class="test-card reveal" data-test-value="Liver Function">
+                <div class="card-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                <h3>Hepatic Assessment</h3>
+                <p>Comprehensive enzymatic LFT profiling for ultimate systemic clarity.</p>
+                <div class="price-action">
+                    <span class="price">₹1,299</span>
+                    <button class="select-assay-btn">Select Assay</button>
+                </div>
+            </div>
+            <div class="test-card reveal" data-test-value="Thyroid Test">
+                <div class="card-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                <h3>Endocrine Thyroid</h3>
+                <p>Ultra-precise quantification of free T3, T4, and sensitive TSH levels.</p>
+                <div class="price-action">
+                    <span class="price">₹1,150</span>
+                    <button class="select-assay-btn">Select Assay</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXECUTIVE WELLNESS PACKAGES -->
+    <section class="packages" id="packages">
+        <div class="section-title">
+            <span>Bespoke Longevity Curations</span>
+            <h2>Executive Wellness Tiers</h2>
+        </div>
+        <div class="package-container">
+            <div class="package-card reveal" data-test-value="Basic Checkup">
+                <h3>Essential Preventive</h3>
+                <div class="package-price">₹2,999</div>
+                <ul class="package-features">
+                    <li><i class="fa-solid fa-circle-check"></i> Basic Complete Blood Count</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fasting Glycemia Validation</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Microscopic Urinalysis</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Digital Report Processing</li>
+                </ul>
+                <button class="package-action-btn">Select Plan</button>
+            </div>
+            <div class="package-card featured reveal" data-test-value="Full Body Checkup">
+                <div class="badge">Most Requested Ensemble</div>
+                <h3>Sovereign Longevity Panel</h3>
+                <div class="package-price">₹7,499</div>
+                <ul class="package-features">
+                    <li><i class="fa-solid fa-circle-check"></i> 85+ Complete Strategic Metrics</li>
+                    <li><i class="fa-solid fa-circle-check"></i> VIP In-Home Concierge Extraction</li>
+                    <li><i class="fa-solid fa-circle-check"></i> MD Post-Analysis Review Session</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Advanced Cellular Lipid Array</li>
+                </ul>
+                <button class="package-action-btn intense">Select Plan</button>
+            </div>
+            <div class="package-card reveal" data-test-value="Executive Package">
+                <h3>Imperial Longevity Premium</h3>
+                <div class="package-price">₹14,999</div>
+                <ul class="package-features">
+                    <li><i class="fa-solid fa-circle-check"></i> Full System Cancer Bio-Mapping</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Extended Vitamin Bioavailability Profile</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Genetic Cardiovascular Risk Evaluation</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Dedicated Concierge Health Liaison</li>
+                </ul>
+                <button class="package-action-btn">Select Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCORDION FAQ SECTION (Essential Industry Inclusion) -->
+    <section class="faq-section" id="faq">
+        <div class="section-title">
+            <span>Inquiries</span>
+            <h2>Pre-Diagnostic Protocols</h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Do I need to fast before my appointment? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">Yes. For comprehensive metabolic panels, lipid profiles, and blood sugar testing, a strict 8-12 hour fast is required. Hydration via pure water is highly recommended.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How fast will my data be accessible? <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="faq-answer">Routine single biomarker screenings are processed and verified within 12 hours. Multi-parameter Elite profiles are published inside our secure cloud application within 24 hours.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPOINTMENT RESERVATION -->
+    <section class="booking" id="booking">
+        <div class="booking-form reveal">
+            <h2>Secure Private Extraction Window</h2>
+            <p class="form-subtitle">Fill in your information below to allocate an elite clinical representative to your residence.</p>
+            <form id="appointmentForm">
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="clientName" placeholder="Full Legal Name" required autocomplete="name">
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" id="clientPhone" placeholder="Mobile Coordinate Contact (10 digits)" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="clientEmail" placeholder="Secure Email Portal Address" required autocomplete="email">
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-microscope"></i>
+                    <select id="selectedAssay" required>
+                        <option value="" disabled selected>Choose Chosen Biomarker Curation</option>
+                        <option value="CBC Test">CBC Profile</option>
+                        <option value="Diabetes Profile">Metabolic Glucose Panel</option>
+                        <option value="Liver Function">Hepatic Assessment Profile</option>
+                        <option value="Thyroid Test">Endocrine Thyroid Matrix</option>
+                        <option value="Basic Checkup">Essential Preventive Package</option>
+                        <option value="Full Body Checkup">Sovereign Longevity Panel</option>
+                        <option value="Executive Package">Imperial Longevity Premium</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Finalize Laboratory Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>BLOODCARE <span class="gold-text">ELITE</span></h3>
+                <p>Redefining diagnostic safety through architectural clinical elegance and hyper-personalized cellular research panels.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Consulate</h4>
+                <p><i class="fa-solid fa-envelope"></i> concierge@bloodcare-elite.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+            </div>
+            <div class="footer-socials">
+                <h4>Digital Portals</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook Link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram Link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn Link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 BloodCare Elite Inc. All Rights Reserved. Private Diagnostics Enclave.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

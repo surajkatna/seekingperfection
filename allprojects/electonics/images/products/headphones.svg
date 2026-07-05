@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-label="Headphones product">
+  <rect width="300" height="200" fill="#121212"/>
+  <path d="M90 110 C90 70 120 45 150 45 C180 45 210 70 210 110" fill="none" stroke="#d4af37" stroke-width="3"/>
+  <rect x="75" y="105" width="30" height="55" rx="8" fill="#0a0a0a" stroke="#d4af37" stroke-width="1.5"/>
+  <rect x="195" y="105" width="30" height="55" rx="8" fill="#0a0a0a" stroke="#d4af37" stroke-width="1.5"/>
+</svg>

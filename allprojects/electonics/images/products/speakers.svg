@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-label="Speaker product">
+  <rect width="300" height="200" fill="#121212"/>
+  <rect x="110" y="55" width="80" height="100" rx="10" fill="#0a0a0a" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="150" cy="90" r="14" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="150" cy="125" r="8" fill="#d4af37" opacity="0.5"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="ElectroWorld banner">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <rect x="80" y="80" width="1040" height="470" fill="none" stroke="#d4af37" stroke-width="2" opacity="0.35"/>
+  <text x="600" y="290" fill="#ffffff" font-family="Georgia, serif" font-size="72" text-anchor="middle">ElectroWorld</text>
+  <text x="600" y="360" fill="#d4af37" font-family="Arial, sans-serif" font-size="28" letter-spacing="8" text-anchor="middle">HAUTE ÉLECTRONIQUE</text>
+</svg>

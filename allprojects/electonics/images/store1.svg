@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Showroom interior 1">
+  <rect width="640" height="480" fill="#101010"/>
+  <rect x="0" y="300" width="640" height="180" fill="#0a0a0a"/>
+  <rect x="80" y="120" width="120" height="180" fill="#121212" stroke="#d4af37" stroke-width="1"/>
+  <rect x="240" y="100" width="160" height="200" fill="#121212" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+  <rect x="440" y="130" width="120" height="170" fill="#121212" stroke="#d4af37" stroke-width="1"/>
+  <circle cx="320" cy="80" r="28" fill="#d4af37" opacity="0.35"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-label="Tablet product">
+  <rect width="300" height="200" fill="#121212"/>
+  <rect x="95" y="35" width="110" height="130" rx="10" fill="#0a0a0a" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="150" cy="155" r="5" fill="#d4af37" opacity="0.5"/>
+</svg>

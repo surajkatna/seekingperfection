@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-label="Camera product">
+  <rect width="300" height="200" fill="#121212"/>
+  <rect x="85" y="60" width="130" height="90" rx="8" fill="#0a0a0a" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="150" cy="105" r="28" fill="none" stroke="#d4af37" stroke-width="2"/>
+  <rect x="195" y="72" width="18" height="14" rx="2" fill="#d4af37" opacity="0.5"/>
+</svg>

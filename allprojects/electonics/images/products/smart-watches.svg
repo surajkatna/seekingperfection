@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" role="img" aria-label="Smart watch product">
+  <rect width="300" height="200" fill="#121212"/>
+  <rect x="118" y="35" width="64" height="130" rx="16" fill="#0a0a0a" stroke="#d4af37" stroke-width="1.5"/>
+  <rect x="128" y="70" width="44" height="60" rx="6" fill="#121212" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+</svg>
