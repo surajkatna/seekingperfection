@@ -123,9 +123,7 @@ const portfolioProjects = [
     image: "images/electronicport.png"
   },
   {
-    
-
- name: "Coaching Institute",
+    name: "Coaching Institute",
     folder: "coaching",
     category: "Education Website",
     description: "Course-led coaching website with clear sections for programs, outcomes and contact actions.",

@@ -237,7 +237,7 @@ function buildRecommendation() {
     `Hello Hanuman Saw Mill, I want a ${productLabel}. Size: ${state.dimensions || "not confirmed"}. Budget: ${state.budget || "not confirmed"}. Recommended wood: ${wood}. Please contact me with a final quotation.`
   );
 
-  return `${summary}<br><br>This is an initial recommendation. Hardware, polish, design complexity and wood grade can change the final price.<br><br><a href="https://wa.me/917870734451?text=${whatsappText}" target="_blank" rel="noopener noreferrer">Send these details to Hanuman Saw Mill on WhatsApp</a>`;
+  return `${summary}<br><br>This is an initial recommendation. Hardware, polish, design complexity and wood grade can change the final price.<br><br><a href="https://wa.me/000000000?text=${whatsappText}" target="_blank" rel="noopener noreferrer">Send these details to Hanuman Saw Mill on WhatsApp</a>`;
 }
 
 function nextQuestion() {
@@ -261,7 +261,7 @@ function nextQuestion() {
   }
 
   state.awaiting = "";
-  setQuickReplies(["Start another project", "Call 7870734451"]);
+  setQuickReplies(["Start another project", "Call 00000000"]);
   return buildRecommendation();
 }
 
@@ -278,9 +278,9 @@ function botResponse(rawText) {
     resetState();
     return "Of course. What would you like to build next?";
   }
-  if (text.includes("call 7870734451")) {
+  if (text.includes("call 00000")) {
     setQuickReplies([]);
-    return `You can call us at <a href="tel:+917870734451">7870734451</a>, or message us on <a href="https://wa.me/917870734451" target="_blank" rel="noopener noreferrer">WhatsApp</a>.`;
+    return `You can call us at <a href="tel:+0000">000</a>, or message us on <a href="https://wa.me/00000000" target="_blank" rel="noopener noreferrer">WhatsApp</a>.`;
   }
   detectDetails(text);
   return nextQuestion();
@@ -385,7 +385,7 @@ function buildRoomAnalysis() {
   const whatsappText = encodeURIComponent(`Hello Hanuman Saw Mill, I have a ${label} photo. The visible wall is about ${width} ft wide. Please review the room and confirm suitable furniture and dimensions.`);
 
   addMessage(
-    `<strong>Room photo plan: ${label}</strong><br>The uploaded photo has a ${orientation} composition. ${lightAdvice}<ul class="room-result-list">${furniture}</ul><strong>Layout rule:</strong> Keep about 2.5 to 3 ft of clear walking space around major furniture.<br><br>These are planning estimates, not measurements taken from the photo. Door swings, windows and electrical points must be checked on site.<br><br><a href="https://wa.me/917870734451?text=${whatsappText}" target="_blank" rel="noopener noreferrer">Ask Hanuman Saw Mill to verify this room plan</a>`
+    `<strong>Room photo plan: ${label}</strong><br>The uploaded photo has a ${orientation} composition. ${lightAdvice}<ul class="room-result-list">${furniture}</ul><strong>Layout rule:</strong> Keep about 2.5 to 3 ft of clear walking space around major furniture.<br><br>These are planning estimates, not measurements taken from the photo. Door swings, windows and electrical points must be checked on site.<br><br><a href="https://wa.me/00000?text=${whatsappText}" target="_blank" rel="noopener noreferrer">Ask Hanuman Saw Mill to verify this room plan</a>`
   );
 
   photoPanel.hidden = true;
