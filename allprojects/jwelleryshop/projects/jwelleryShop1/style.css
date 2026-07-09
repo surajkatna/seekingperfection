@@ -163,7 +163,7 @@ section {
 
   font-size: 3.3rem;
 
-  color: var(--white);
+  color:#ff9d3b;
 
   font-weight: 500;
 
@@ -884,7 +884,7 @@ body::after {
 .hero-title {
   font-family: "Cormorant Garamond", serif;
 
-  font-size: 5.5rem;
+  font-size: 5rem;
 
   font-weight: 500;
 
